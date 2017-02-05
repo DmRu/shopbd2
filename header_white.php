@@ -14,13 +14,13 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="#page-top">
-                        <div id='logo' class="logowite_my" alt="logo"></div>
+                        <div id='logo' class="logoblack_my_fo_PP" alt="logo"></div>
                     </a>
                 </div>
 
                 <div class="navbar-collapse collapse navbar-main-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a id='topmeny' href="http://vk.com" style="padding-left: 30px" class="dropdown-toggle color-light"><div id='vk_nav' class="vk_navbar_red" alt="vk" >  Напишите нам </div></a>
+                        <li><a id='topmeny' href="http://vk.com" style="padding-left: 30px; color: #0b0b0b !important;" class="dropdown-toggle color-light"><div id='vk_nav' class="vk_navbar_red" alt="vk" >  Напишите нам </div></a>
 
                         <li><a href="#" data-toggle="modal" data-target="#searchModal"><i class="fa fa-search fa-fw"></i></a></li>
 

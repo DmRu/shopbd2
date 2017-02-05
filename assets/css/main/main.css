@@ -4696,7 +4696,8 @@ ul.pagination.pagination-pasific li.active a {
 }
 
 .logowite_my {
-    margin-top: -7px; background-image: url(../../../assets/img/logo/logo-default.png);
+    margin-top: -7px;
+    background-image: url(../../../assets/img/logo/logo-default.png);
     width: 118px;
     height: 30px;
 }
@@ -4704,6 +4705,14 @@ ul.pagination.pagination-pasific li.active a {
 
 .logoblack_my {
     background-image: url(../../../assets/img/logo/logo-red-black.png);
+
+}
+
+.logoblack_my_fo_PP {
+    background-image: url(../../../assets/img/logo/logo-red-black.png);
+    width: 118px;
+    height: 30px;
+    margin-top: -7px;
 }
 
 
