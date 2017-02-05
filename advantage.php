@@ -23,7 +23,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="content-box content-box-center">
                     <span class="icon-gift color-light"></span>
-                    <h5 class="color-light">Упокаовка</h5>
+                    <h5 class="color-light">Упокаовка на выбор</h5>
                     <p class="color-light alpha7">Правильная упокаойка поможем подчеркнуть элегантность любого букета</p>
 
                 </div>
@@ -32,7 +32,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="content-box content-box-center">
                     <span class=" icon-clock color-light"></span>
-                    <h5 class="color-light">Скорость</h5>
+                    <h5 class="color-light">Пунктуальность</h5>
                     <p class="color-light alpha7">Доставка в течении 2 часов или к любому укажанному времяи.</p>
 
                 </div>

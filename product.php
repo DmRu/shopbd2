@@ -95,7 +95,7 @@
         
         <!-- Navigation Area
         ===================================== -->
-        <?php include 'header.php'; ?>
+        <?php include 'header_white.php'; ?>
         
         
         <!-- Search Modal Dialog Box

@@ -94,7 +94,7 @@
 
         <!-- Navigation Area
         ===================================== -->
-        <?php include 'header.php'; ?>
+        <?php include 'header_transparent.php'; ?>
         <!--
         <nav class="navbar navbar-pasific navbar-mp megamenu navbar-fixed-top" style="border-bottom: none">
             <div class="container-fluid">
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <h4 class="text-uppercase font-montserrat color-dark">
-                            Доставка букетов на день рождение.
+                            <span style="font-size: 20px; font-weight: 700; color: #FF2F2C;">- 15 %</span> <br>На любой букет
                             <small class="heading heading-solid"></small>
                         </h4>
                     </div>
@@ -245,8 +245,8 @@
                             <!-- portfolio item start -->
                             <div class="portfolio-masonry-one-item width2 woocommerce ">
                                 <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
+                                    <h6>Modern</h6>
+                                    <p><a href="#">35 роз</a></p>
                                     <div class="portfolio-mask-attr text-center">
                                         <a href="assets/img/portfolio/preview/img-370x165-1.jpg" class="magnific-popup" title="project title">
                                             <i class="fa fa-search-plus"></i>
@@ -260,8 +260,8 @@
                             <!-- portfolio item start -->
                             <div class="portfolio-masonry-one-item height2 woocommerce html">
                                 <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
+                                    <h6>Букет</h6>
+                                    <p><a href="#">41 роза</a></p>
                                     <div class="portfolio-mask-attr text-center">
                                         <a href="assets/img/portfolio/preview/img-180x340-1.jpg" class="magnific-popup" title="project title">
                                             <i class="fa fa-search-plus"></i>
@@ -305,8 +305,8 @@
                             <!-- portfolio item start -->                            
                             <div class="portfolio-masonry-one-item width2 height2 magento html">
                                 <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
+                                    <h6>XXL-BOX</h6>
+                                    <p><a href="#">30 роз</a></p>
                                     <div class="portfolio-mask-attr text-center">
                                         <a href="assets/img/portfolio/preview/img-370x340-1.jpg" class="magnific-popup" title="project title">
                                             <i class="fa fa-search-plus"></i>
@@ -413,30 +413,30 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                         <span class="icon-gift el-icon3x color-pasific mt30"></span>
                         <div class="fact">                            
-                            <div class="fact-number timer" data-perc="95">
+                            <div class="fact-number timer" data-perc="540">
                                 <span class="factor"></span>
                             </div>                                    
-                            <span class="fact-title">Mobile Apps</span>
+                            <span class="fact-title">Доставленых букетов</span>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                         <span class="icon-happy el-icon3x color-pasific mt30"></span>
                         <div class="fact">                                    
-                            <div class="fact-number timer" data-perc="540">
+                            <div class="fact-number timer" data-perc="483">
                                 <span class="factor"></span>
                             </div>                                    
-                            <span class="fact-title">Happy Clients</span>
+                            <span class="fact-title">Счастливых получателей</span>
                         </div>
                     </div>
                     
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                         <span class="icon-clock el-icon3x color-pasific mt30"></span>
                         <div class="fact">                                    
-                            <div class="fact-number timer" data-perc="950">
+                            <div class="fact-number timer" data-perc="5">
                                 <span class="factor"></span>
                             </div>                                    
-                            <span class="fact-title">Apps Download</span>
+                            <span class="fact-title">Лет доставляем цветы</span>
                         </div>
                     </div>
                     
@@ -468,9 +468,9 @@
                 <div class="row">
                     
                     <h4 class="text-center text-uppercase font-montserrat color-dark mb50">
-                        Clients Testimonials.
+                        Отзывы наших клиентов
                         <small class="heading-desc text-lowercase">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit morbi sagittis.
+                            Спасибо что вы пишете отзывы, это помогает нам становиться лучше
                         </small>
                         <small class="heading heading-solid center-block"> </small>
                     </h4>
@@ -582,9 +582,9 @@
             <div class="container">
                 <div class="row">
                     <h4 class="text-center text-uppercase font-montserrat color-dark mb50">
-                        Amazing Template Features.
+                        Преимущество доставки букетов
                         <small class="heading-desc text-lowercase">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit morbi sagittis.
+                            Вы еще думаете, что проще купить цветы в ближайшем ларьке, тогда эта информация для вас
                         </small>
                         <small class="heading heading-solid center-block"> </small>
                     </h4>
