@@ -811,6 +811,7 @@
 
         <script src="telegram.js"></script>
         <script src="js/typed.js"></script>
+        <script scr="js/header_switch"></script>
 
 
         <!-- JQuery Core
