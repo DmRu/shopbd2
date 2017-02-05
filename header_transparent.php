@@ -14,7 +14,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="#page-top">
-                        <div id='logo' class="logowite_my" alt="logo"></div>
+                        <div id='logo' class="logoblack_my" alt="logo"></div>
                     </a>
                 </div>
 

@@ -809,11 +809,6 @@
 
 
 
-        <script src="telegram.js"></script>
-        <script src="js/typed.js"></script>
-        <script scr="js/header_swich.js"></script>
-
-
         <!-- JQuery Core
         =====================================-->
         <script src="assets/js/core/jquery.min.js"></script>
@@ -841,6 +836,12 @@
         <script src="assets/js/main/main.js"></script>
         <!-- Print
     ================================-->
+
+
+        <script src="telegram.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/headerswich.js"></script>
+
         <script src="js/typed.js"></script>
         <script>
 
