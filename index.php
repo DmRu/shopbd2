@@ -63,7 +63,15 @@
         <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">--> 
         <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
         <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
-        
+
+
+       <!-- <link rel="stylesheet" href="assets/css/icon/css_fonts/myfont-codes.css">-->
+        <!--<link rel="stylesheet" href="assets/css/icon/css_fonts/myfont.css">-->
+        <!-- <link rel="stylesheet" href="assets/css/icon/css_fonts/animation.css">-->
+        <!--<link rel="stylesheet" href="assets/css/icon/css_fonts/myfont-embedded.css">-->
+        <!--<link rel="stylesheet" href="assets/css/icon/css_fonts/myfont-ie7.css">-->
+        <!--<link rel="stylesheet" href="assets/css/icon/css_fonts/myfont-ie7-codes.css">-->
+
         <!-- Load JS
         HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
         WARNING: Respond.js doesn't work if you view the page via file://
@@ -595,7 +603,7 @@
                     <!-- feature start -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="content-box content-box-icon-o content-box-left-icon mb30">                        
-                            <span class="icon-mobile color-pasific"></span>
+                            <span class="icon-blower_bouket color-pasific" style="background: url(images/blower_bouket.svg) 19px 10px no-repeat; background-size: 35px;"></span>
                             <h4>Mobile Optimzed</h4>               
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit commodi pariatur magni omnis reiciendis architecto.</p>
                       
@@ -606,7 +614,7 @@
                     <!-- feature start -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="content-box content-box-icon-o content-box-left-icon mb30">                        
-                            <span class="icon-tools color-pasific"></span>
+                            <span class="icon-adjustments color-pasific"></span>
                             <h4>Easy to Customize</h4>               
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit commodi pariatur magni omnis reiciendis architecto.</p>
                       
@@ -617,7 +625,7 @@
                     <!-- feature start -->                    
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="content-box content-box-icon-o content-box-left-icon mb30">                        
-                            <span class="icon-browser color-pasific"></span>
+                            <span class="icon-heart color-pasific"></span>
                             <h4>Corss Browsers</h4>               
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit commodi pariatur magni omnis reiciendis architecto.</p>
                       
@@ -639,7 +647,7 @@
                     <!-- feature start -->                    
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="content-box content-box-icon-o content-box-left-icon mb30">                        
-                            <span class="icon-layers color-pasific"></span>
+                            <span class="icon-map color-pasific"></span>
                             <h4>Clean Code</h4>               
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit commodi pariatur magni omnis reiciendis architecto.</p>
                       
@@ -650,7 +658,7 @@
                     <!-- feature start -->                    
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="content-box content-box-icon-o content-box-left-icon mb30">                        
-                            <span class="icon-video color-pasific"></span>
+                            <span class="icon-chat color-pasific"></span>
                             <h4>Video Background</h4>               
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit commodi pariatur magni omnis reiciendis architecto.</p>
                       
