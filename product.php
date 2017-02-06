@@ -91,8 +91,8 @@
         <a href="#page-top" class="go-to-top">
             <i class="fa fa-long-arrow-up"></i>
         </a>
-        
-        
+
+        <?php require 'bd.php'; ?>
         <!-- Navigation Area
         ===================================== -->
         <?php include 'header_white.php'; ?>
@@ -130,13 +130,13 @@
             <div class="container">
                 <div class="row mt20 mb30">
                     <div class="col-md-6 text-left">
-                        <h3 class="color-light text-uppercase">Букет роз Classic<small class="color-light alpha7">Рекомендуем</small></h3>
+                        <h3 class="color-light text-uppercase"><?php name();?><span> </span><?php f_class();?><small class="color-light alpha7">Рекомендуем</small></h3>
                     </div>
                     <div class="col-md-6 pt35">
                         <ul class="breadcrumb text-right">
                             <li><a href="#">Главная</a></li>
                             <li><a href="#">Каталог</a></li>
-                            <li>Букет роз Classic</li>
+                            <li><?php name();?><span> </span><?php f_class();?></li>
                         </ul>
                     </div>
                 </div>
@@ -195,8 +195,8 @@
 
                             <div class="row shop-item-detail-price mt10 bt-dotted-1">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <ins><span class="amount">₽3990</span></ins>
-                                    <del><span class="amount">₽4550</span></del>
+                                    <ins><span class="amount">₽<?php price('price');?></span></ins>
+                                    <del><span class="amount">₽<?php price('price_full');?></span></del>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                     <div class="alert alert-info mt15">
