@@ -256,7 +256,7 @@
                                     <h6>Modern</h6>
                                     <p><a href="#">35 роз</a></p>
                                     <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-370x165-1.jpg" class="magnific-popup" title="project title">
+                                        <a href="product.php" title="project title">
                                             <i class="fa fa-search-plus"></i>
                                         </a>
                                     </div>
@@ -419,7 +419,7 @@
                 <div class="row">
                     
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <span class="icon-gift el-icon3x color-pasific mt30"></span>
+                        <div class="el-icon3x color-pasific mt30" style="height: 40px; background: url(images/blower_bouket.svg) center no-repeat;"></div>
                         <div class="fact">                            
                             <div class="fact-number timer" data-perc="540">
                                 <span class="factor"></span>

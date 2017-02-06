@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Pasific Multipage Template |  Shop Product Detail</title>        
+        <title>Букеты | Дотсавка букетов</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta charset="utf-8">
@@ -125,19 +125,18 @@
         
         <!-- Subheader Area
         ===================================== -->
-        <header class="bg-grad-stellar mt70" style="background: url(images/bgfoto.jpg) -7px -733px;">
+        <header class="bg-grad-stellar" style="margin-top: 80px; background: url(images/bgfoto.jpg) -7px -733px;">
 
             <div class="container">
                 <div class="row mt20 mb30">
                     <div class="col-md-6 text-left">
-                        <h3 class="color-light text-uppercase">Букет роз Classic<small class="color-light alpha7">Best products</small></h3>
+                        <h3 class="color-light text-uppercase">Букет роз Classic<small class="color-light alpha7">Рекомендуем</small></h3>
                     </div>
                     <div class="col-md-6 pt35">
                         <ul class="breadcrumb text-right">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Catalog</a></li>
-                            <li><a href="#">Man</a></li>
-                            <li>Cool Jacket</li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li>Букет роз Classic</li>
                         </ul>
                     </div>
                 </div>
@@ -156,10 +155,11 @@
                     ===================================== -->
                     <div class="col-md-4 col-sm-6 col-xs-12">                    
                         <div class="shop-item-detail-photo center-block mb25">
+                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="images/101-roze.jpg" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>
                             <div class="shop-label bg-blue">Лучшие букеты</div>
                             <div class="shop-label bg-green">Бесплатная доставка</div>
                             <div class="shop-label bg-red">-15%</div>
-                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/> 
+                            <!--<img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>-->
 
                             <div id="shop-item-detail-photo-gallery"> 
                                 <a href="#" data-image="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"> 
