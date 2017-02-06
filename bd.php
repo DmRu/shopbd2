@@ -5,6 +5,16 @@
  * Date: 06.02.2017
  * Time: 16:44
  */
+
+
+/**
+ПЕРЕМЕННЫЕ OUTPUT
+ * $name
+ * $class
+ * $price
+ * $price_before_sale
+ */
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -15,8 +25,6 @@ mysql_select_db($dbName) or die(mysql_error());
 
 
 
-function name()
-{
     if (!empty($_GET["id"])) {
         $id = $_GET["id"];
         $query = "SELECT name FROM flowers_name WHERE id=" . $id;
@@ -25,28 +33,28 @@ function name()
 
 //print($res, 0);
 
-        echo mysql_result($res, 0);
+        $name = mysql_result($res, 0);
         //echo $query;
-    };
-};
+    }
+    else header( 'Refresh: 0; url=/404.php' );
 
-function f_class()
-{
+
     if (!empty($_GET["am"])) {
         $am = $_GET["am"];
         $query = "SELECT class FROM amount WHERE amount=" . $am;
         /* Выполнить запрос. Если произойдет ошибка - вывести ее. */
         $class = mysql_query($query) or die(mysql_error());
 
-//print($res, 0);
+        //print($res, 0);
 
-        echo mysql_result($class, 0);
+
+        $class = mysql_result($class, 0);
         //echo $query;
-    };
-};
+    }
+    else header( 'Refresh: 0; url=/404.php' );
 
-function price($flag)
-{
+
+
     if (!empty($_GET["id"])) {
         $id = $_GET["id"];
         $query = "SELECT priсe FROM flowers_name WHERE id=" . $id;
@@ -56,13 +64,10 @@ function price($flag)
 //print($res, 0);
 
         $price = mysql_result($res, 0) * $_GET["am"];
-        $price_before_sale = $price * 1.15;
-        $price_arr = array($price, $price_before_sale);
-        if ($flag == 'price')
-        echo $price_arr[0];
-        else echo round($price_arr[1]);
+        $price_before_sale = round($price * 1.15, -1);
+
         //echo $query;
-    };
-};
+    }
+    else header( 'Refresh: 0; url=/404.php' );
 
 ?>

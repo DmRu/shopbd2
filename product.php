@@ -1,3 +1,4 @@
+<?php require 'bd.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -92,7 +93,7 @@
             <i class="fa fa-long-arrow-up"></i>
         </a>
 
-        <?php require 'bd.php'; ?>
+
         <!-- Navigation Area
         ===================================== -->
         <?php include 'header_white.php'; ?>
@@ -130,13 +131,13 @@
             <div class="container">
                 <div class="row mt20 mb30">
                     <div class="col-md-6 text-left">
-                        <h3 class="color-light text-uppercase"><?php name();?><span> </span><?php f_class();?><small class="color-light alpha7">Рекомендуем</small></h3>
+                        <h3 class="color-light text-uppercase"><?php echo $name;?><span> </span><?php echo $class;?><small class="color-light alpha7">Рекомендуем</small></h3>
                     </div>
                     <div class="col-md-6 pt35">
                         <ul class="breadcrumb text-right">
                             <li><a href="#">Главная</a></li>
                             <li><a href="#">Каталог</a></li>
-                            <li><?php name();?><span> </span><?php f_class();?></li>
+                            <li><?php echo $name;?><span> </span><?php echo $class;?></li>
                         </ul>
                     </div>
                 </div>
@@ -195,8 +196,8 @@
 
                             <div class="row shop-item-detail-price mt10 bt-dotted-1">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <ins><span class="amount">₽<?php price('price');?></span></ins>
-                                    <del><span class="amount">₽<?php price('price_full');?></span></del>
+                                    <ins><span class="amount">₽<?php echo  $price;?></span></ins>
+                                    <del><span class="amount">₽<?php echo  $price_before_sale;?></span></del>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                     <div class="alert alert-info mt15">
