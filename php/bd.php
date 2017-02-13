@@ -36,7 +36,7 @@ mysql_select_db($dbName) or die(mysql_error());
         $name = mysql_result($res, 0);
         //echo $query;
     }
-    else header( 'Refresh: 0; url=/404.php' );
+    else header( 'Refresh: 0; url=../pages/404.php' );
 
 
     if (!empty($_GET["am"])) {
@@ -51,7 +51,7 @@ mysql_select_db($dbName) or die(mysql_error());
         $class = mysql_result($class, 0);
         //echo $query;
     }
-    else header( 'Refresh: 0; url=/404.php' );
+    else header( 'Refresh: 0; url=../pages/404.php' );
 
 
 
@@ -68,6 +68,6 @@ mysql_select_db($dbName) or die(mysql_error());
 
         //echo $query;
     }
-    else header( 'Refresh: 0; url=/404.php' );
+    else header( 'Refresh: 0; url=../pages/404.php' );
 
 ?>

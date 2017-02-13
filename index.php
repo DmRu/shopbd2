@@ -102,7 +102,7 @@
 
         <!-- Navigation Area
         ===================================== -->
-        <?php include 'header_transparent.php'; ?>
+        <?php include 'section/header_transparent.php'; ?>
         <!--
         <nav class="navbar navbar-pasific navbar-mp megamenu navbar-fixed-top" style="border-bottom: none">
             <div class="container-fluid">
@@ -180,7 +180,7 @@
 
         <!-- Преимущества
         ===================================== -->
-        <?php include 'advantage.php'; ?>
+        <?php include 'section/advantage.php'; ?>
         <!--
         <div id="shop-info" class="bg-grad-stellar">
             <div class="container">
@@ -251,18 +251,20 @@
                         <div class="portfolio-masonry-one">
                             
                             <!-- portfolio item start -->
-                            <div class="portfolio-masonry-one-item width2 woocommerce ">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Modern</h6>
-                                    <p><a href="#">35 роз</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="product.php" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
+                            <a href="pages/product.php?id=1&am=35">
+                                <div id="35_roz" class="portfolio-masonry-one-item width2 woocommerce">
+                                    <div class="portfolio-mask text-center">
+                                        <h6>Modern</h6>
+                                        <p><a href="pages/product.php">35 роз</a></p>
+                                        <div class="portfolio-mask-attr text-center">
+                                            <a href="pages/product.php" title="project title">
+                                                <i class="fa fa-search-plus"></i>
+                                            </a>
+                                        </div>
                                     </div>
+                                    <img src="assets/img/portfolio/thumbs/img-370x165-1.jpg" alt="portfolio woocommerce" class="img-responsive">
                                 </div>
-                                <img src="assets/img/portfolio/thumbs/img-370x165-1.jpg" alt="portfolio woocommerce" class="img-responsive">
-                            </div>
+                            </a>
                             <!-- portfolio item end -->
                             
                             <!-- portfolio item start -->
@@ -419,7 +421,7 @@
                 <div class="row">
                     
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="el-icon3x color-pasific mt30" style="height: 40px; background: url(images/blower_bouket.svg) center no-repeat;"></div>
+                        <div class="el-icon3x color-pasific mt30" style="height: 43px; background: url(images/blower_bouket.svg) center no-repeat;"></div>
                         <div class="fact">                            
                             <div class="fact-number timer" data-perc="540">
                                 <span class="factor"></span>
@@ -768,7 +770,9 @@
                             <div class="col-md-3 col-sm-3 col-xs-12">
                                 <div class="color-light el-icon2x" style="width: 100%; height: 32px; background-size: 38px; background: url(images/vk_line.svg) no-repeat"></div>
                                 <h5 class="color-light"><strong>ВКонтатке</strong></h5>
-                                <button class="p5 pr15 pl15 buttom_vk_contacts">Написать</button>
+                                <a href="https://vk.com" target="_blank">
+                                    <div class="p5 pr15 pl15 buttom_vk_contacts">Написать</div>
+                                </a>
                             </div>
 
                             <div class="col-md-3 col-sm-3 col-xs-6">
@@ -863,7 +867,7 @@
         <!-- Footer Area
         =====================================-->
 
-        <?php include 'fotter.php'; ?>
+        <?php include 'section/fotter.php'; ?>
         <!--
         <footer id="footer" class="footer-one center-block bg-gray pt50 pb25 ">
             <div class="container">
@@ -956,7 +960,7 @@
     ================================-->
 
 
-        <script src="telegram.js"></script>
+        <script src="js/telegram.js"></script>
         <script src="js/typed.js"></script>
         <script src="js/headerswich.js"></script>
 

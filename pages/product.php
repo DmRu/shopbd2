@@ -1,4 +1,4 @@
-<?php require 'bd.php'; ?>
+<?php require '../php/bd.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,36 +11,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         
         <!-- Favicons -->
-        <link rel="shortcut icon" href="assets/img/favicon.png">
-        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="../assets/img/favicon.png">
+        <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/apple-touch-icon-114x114.png">
         
         <!-- Load Core CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/core/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/core/animate.min.css">
+        <link rel="stylesheet" href="../assets/css/core/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/core/animate.min.css">
         
         <!-- Load Main CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/main/main.css">
-        <link rel="stylesheet" href="assets/css/main/setting.css">
-        <link rel="stylesheet" href="assets/css/main/hover.css">
+        <link rel="stylesheet" href="../assets/css/main/main.css">
+        <link rel="stylesheet" href="../assets/css/main/setting.css">
+        <link rel="stylesheet" href="../assets/css/main/hover.css">
         
-        <link rel="stylesheet" href="assets/css/range-slider/ion.rangeSlider.css">
-        <link rel="stylesheet" href="assets/css/range-slider/ion.rangeSlider.skinFlat.css">
+        <link rel="stylesheet" href="../assets/css/range-slider/ion.rangeSlider.css">
+        <link rel="stylesheet" href="../assets/css/range-slider/ion.rangeSlider.skinFlat.css">
         
         <!-- Load Magnific Popup CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">        
-        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">              
-        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+        <link rel="stylesheet" href="../assets/css/magnific/magic.min.css">
+        <link rel="stylesheet" href="../assets/css/magnific/magnific-popup.css">
+        <link rel="stylesheet" href="../assets/css/magnific/magnific-popup-zoom-gallery.css">
         
         <!-- Load OWL Carousel CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+        <link rel="stylesheet" href="../assets/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="../assets/css/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="../assets/css/owl-carousel/owl.transitions.css">
         
         <!-- Load Color CSS - Please uncomment to apply the color.
         =====================================      
@@ -54,7 +54,7 @@
         <link rel="stylesheet" href="assets/css/color/pink.css">
         <link rel="stylesheet" href="assets/css/color/red.css">
         <link rel="stylesheet" href="assets/css/color/yellow.css">-->
-        <link rel="stylesheet" href="assets/css/color/pasific.css">
+        <link rel="stylesheet" href="../assets/css/color/pasific.css">
         
         <!-- Load Fontbase Icons - Please Uncomment to use linea icons
         =====================================       
@@ -65,8 +65,8 @@
         <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
         <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
         <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">--> 
-        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
-        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+        <link rel="stylesheet" href="../assets/css/icon/font-awesome.css">
+        <link rel="stylesheet" href="../assets/css/icon/et-line-font.css">
         
         <!-- Load JS
         HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
@@ -85,7 +85,7 @@
         ===================================== -->
 		<div id="pageloader" style="display: none;">
 			<div class="loader-item">
-                <img src="assets/img/other/puff.svg" alt="page loader">
+                <img src="../assets/img/other/puff.svg" alt="page loader">
             </div>
 		</div>
         
@@ -96,7 +96,7 @@
 
         <!-- Navigation Area
         ===================================== -->
-        <?php include 'header_white.php'; ?>
+        <?php include '../section/header_white.php'; ?>
         
         
         <!-- Search Modal Dialog Box
@@ -126,7 +126,7 @@
         
         <!-- Subheader Area
         ===================================== -->
-        <header class="bg-grad-stellar" style="margin-top: 80px; background: url(images/bgfoto.jpg) -7px -733px;">
+        <header class="bg-grad-stellar" style="margin-top: 80px; background: url(../images/bgfoto.jpg) -7px -733px;">
 
             <div class="container">
                 <div class="row mt20 mb30">
@@ -156,7 +156,7 @@
                     ===================================== -->
                     <div class="col-md-4 col-sm-6 col-xs-12">                    
                         <div class="shop-item-detail-photo center-block mb25">
-                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="images/101-roze.jpg" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>
+                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="../images/101-roze.jpg" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>
                             <div class="shop-label bg-blue">Лучшие букеты</div>
                             <div class="shop-label bg-green">Бесплатная доставка</div>
                             <div class="shop-label bg-red">-15%</div>
@@ -164,16 +164,16 @@
 
                             <div id="shop-item-detail-photo-gallery"> 
                                 <a href="#" data-image="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"> 
-                                    <img src="assets/img/shop/img-shop-thumb-1.png" class="shop-item-detail-photo-thumbnail" alt="item photo" /> 
+                                    <img src="../assets/img/shop/img-shop-thumb-1.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                                 <a href="#" data-image="assets/img/shop/img-shop-2.png" data-zoom-image="assets/img/shop/img-shop-2-large.jpg"> 
-                                    <img src="assets/img/shop/img-shop-thumb-2.png" class="shop-item-detail-photo-thumbnail" alt="item photo" /> 
+                                    <img src="../assets/img/shop/img-shop-thumb-2.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                                 <a href="#" data-image="assets/img/shop/img-shop-3.png" data-zoom-image="assets/img/shop/img-shop-3-large.jpg"> 
-                                    <img src="assets/img/shop/img-shop-thumb-3.png" class="shop-item-detail-photo-thumbnail" alt="item photo" /> 
+                                    <img src="../assets/img/shop/img-shop-thumb-3.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                                 <a href="#" data-image="assets/img/shop/img-shop-4.png" data-zoom-image="assets/img/shop/img-shop-4-large.jpg"> 
-                                    <img src="assets/img/shop/img-shop-thumb-4.png" class="shop-item-detail-photo-thumbnail" alt="item photo" /> 
+                                    <img src="../assets/img/shop/img-shop-thumb-4.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                             </div>
 
@@ -433,7 +433,7 @@
 
                                     <!-- Review Start -->
                                     <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="assets/img/other/photo-2.jpg" class="img-thumbnail pull-left mr20" alt="image">
+                                        <img src="../assets/img/other/photo-2.jpg" class="img-thumbnail pull-left mr20" alt="image">
                                         <a href="#" class="mr10 mb10">
                                             <i class="fa fa-star color-yellow"></i>
                                             <i class="fa fa-star color-yellow"></i>
@@ -452,7 +452,7 @@
 
                                     <!-- Review Start -->
                                     <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="assets/img/other/photo-1.jpg" class="img-thumbnail pull-left mr20" alt="image">
+                                        <img src="../assets/img/other/photo-1.jpg" class="img-thumbnail pull-left mr20" alt="image">
                                         <a href="#" class="mr10 mb10">
                                             <i class="fa fa-star color-yellow"></i>
                                             <i class="fa fa-star color-yellow"></i>
@@ -471,7 +471,7 @@
 
                                     <!-- Review Start -->
                                     <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="assets/img/other/photo-4.jpg" class="img-thumbnail pull-left mr20" alt="image">
+                                        <img src="../assets/img/other/photo-4.jpg" class="img-thumbnail pull-left mr20" alt="image">
                                         <a href="#" class="mr10 mb10">
                                             <i class="fa fa-star color-yellow"></i>
                                             <i class="fa fa-star color-yellow"></i>
@@ -490,7 +490,7 @@
 
                                     <!-- Review Start -->
                                     <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="assets/img/other/photo-2.jpg" class="img-thumbnail pull-left mr20" alt="image">
+                                        <img src="../assets/img/other/photo-2.jpg" class="img-thumbnail pull-left mr20" alt="image">
                                         <a href="#" class="mr10 mb10">
                                             <i class="fa fa-star color-yellow"></i>
                                             <i class="fa fa-star color-yellow"></i>
@@ -545,7 +545,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -572,7 +572,7 @@
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
-                                    <img src="images/recomend/box-lx-tulpan.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/box-lx-tulpan.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Casual Jacket</h4>
                                     <span class="shop-item-price">$79.00</span>
                                 </div>
@@ -601,7 +601,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">Sale</div>
-                                    <img src="images/recomend/b-35-yellow.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/b-35-yellow.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Summer Jacket</h4>
                                     <span class="shop-item-price">$85.00</span>
                                 </div>
@@ -629,7 +629,7 @@
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
-                                    <img src="images/recomend/box-xs-pink.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/box-xs-pink.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Man Jacket</h4>
                                     <span class="shop-item-price">$57.00</span>
                                 </div>
@@ -658,7 +658,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="images/recomend/b-25-pink.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/b-25-pink.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -687,7 +687,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="images/recomend/b-101-white.JPG" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/b-101-white.JPG" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -716,7 +716,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="images/recomend/b-51-pink.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/b-51-pink.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -745,7 +745,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
+                                    <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -780,39 +780,39 @@
         
         <!-- Shopping Method
         ===================================== -->
-        <?php include 'advantage.php'; ?>
+        <?php include '../section/advantage.php'; ?>
          
         
         <!-- Footer Area
         =====================================-->
-        <?php include 'fotter.php'; ?>
+        <?php include '../section/fotter.php'; ?>
         
 
         <!-- JQuery Core
         =====================================-->
-        <script src="assets/js/core/jquery.min.js"></script>
-        <script src="assets/js/core/bootstrap.min.js"></script>
+        <script src="../assets/js/core/jquery.min.js"></script>
+        <script src="../assets/js/core/bootstrap.min.js"></script>
         
         <!-- Bootstrap Progress Bar
         =====================================-->
-        <script src="assets/js/progress-bar/bootstrap-progressbar.min.js"></script>
-        <script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
+        <script src="../assets/js/progress-bar/bootstrap-progressbar.min.js"></script>
+        <script src="../assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
         
         <!-- ElevateZoom
         =====================================-->
-        <script src="assets/js/elevatezoom/jquery.elevateZoom-3.0.8.min.js"></script>
+        <script src="../assets/js/elevatezoom/jquery.elevateZoom-3.0.8.min.js"></script>
         
         <!-- JQuery Main
         =====================================-->
-        <script src="assets/js/main/jquery.appear.js"></script>
-        <script src="assets/js/main/isotope.pkgd.min.js"></script>
-        <script src="assets/js/main/parallax.min.js"></script>
-        <script src="assets/js/main/jquery.countTo.js"></script>
-        <script src="assets/js/main/owl.carousel.min.js"></script>
-        <script src="assets/js/main/jquery.sticky.js"></script>
-        <script src="assets/js/main/ion.rangeSlider.min.js"></script>
-        <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/main/main.js"></script>
+        <script src="../assets/js/main/jquery.appear.js"></script>
+        <script src="../assets/js/main/isotope.pkgd.min.js"></script>
+        <script src="../assets/js/main/parallax.min.js"></script>
+        <script src="../assets/js/main/jquery.countTo.js"></script>
+        <script src="../assets/js/main/owl.carousel.min.js"></script>
+        <script src="../assets/js/main/jquery.sticky.js"></script>
+        <script src="../assets/js/main/ion.rangeSlider.min.js"></script>
+        <script src="../assets/js/main/imagesloaded.pkgd.min.js"></script>
+        <script src="../assets/js/main/main.js"></script>
         
         <!-- Custom Script for This Page Only
         =====================================-->

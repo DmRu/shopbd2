@@ -7,7 +7,7 @@
     var phone = $('#senderPhone').val();
     var text= $('#message').val();
 
-    $.get( "telegram.php", { name: name, phone: phone, text: text } );
+    $.get( "../php/telegram.php", { name: name, phone: phone, text: text });
 
 
   //  $$a({
@@ -40,3 +40,8 @@
   function show_pupup() {
   	$('#popup').show(200);
   }
+
+ $('#35_roz').click(function () {
+     location.href = '../pages/product.php';
+ })
+  

@@ -4722,6 +4722,8 @@ ul.pagination.pagination-pasific li.active a {
 
 
 .buttom_vk_contacts{
+    text-align: center;
+    width: 90%;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 3px;

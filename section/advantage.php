@@ -13,7 +13,7 @@
 
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="content-box content-box-center">
-                    <div class="color-light" style="height: 42px; width: 100%; background: url(images/truck.svg) center no-repeat; background-size: 52px;"></div>
+                    <div class="color-light" style="height: 42px; width: 100%; background: url(../images/truck.svg) center no-repeat; background-size: 52px;"></div>
                     <h5 class="color-light">Бесплатная доставка</h5>
                     <p class="color-light alpha7">Бесплатная доставка по Москве. За пределы МКАД 60 руб/км</p>
 

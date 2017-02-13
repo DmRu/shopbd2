@@ -29,7 +29,7 @@ $url = 'https://api.telegram.org/bot' . $token . '/sendMessage?' . http_build_qu
 
 file_get_contents($url);
 
-echo http_build_query($parametrs);
+//echo http_build_query($parametrs);
 
 Echo 'данные успешно отправлены';
 

@@ -5,9 +5,9 @@
     <script src="//vk.com/js/api/openapi.js?137" type="text/javascript"></script>
 
     <script src="https://js.pusher.com/3.2/pusher.min.js"></script>
-    <script src="telegram.js"></script>
+    <script src="js/telegram.js"></script>
 
-    <script src="get-vk-id.js"></script>
+    <script src="js/get-vk-id.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
     <link rel="stylesheet" href="assets/css/main/main.css">
 
