@@ -4721,6 +4721,19 @@ ul.pagination.pagination-pasific li.active a {
 }
 
 
+.buttom_vk_contacts{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+.buttom_vk_contacts:hover{
+    background-color: white;
+    color: #348ac7;
+    transition: background-color 0.5s;
+}
+
 
 @media(max-width:768px) {
 

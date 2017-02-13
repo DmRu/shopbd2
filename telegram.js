@@ -26,7 +26,7 @@
     //alert('Отправили сообщение');
 
 
-    $('#maincontactForm').hide(200).delay(1000);
+    $('#contactForm').hide(200).delay(1000);
    // $('#sendingMessage').show(200).delay(1000);
     //$('#sendingMessage').hide(200).delay(2000);
     $('#successMessage').show(200).delay(4000);

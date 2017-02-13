@@ -184,14 +184,14 @@
                     ===================================== -->
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="shop-item-detail-description">
-                            <h3>Букет Роз Classic</h3>
+                            <h3><?php echo $name;?><span> </span><?php echo $class;?></h3>
 
                             <div class="shop-item-sku mt20 pt10 bt-dotted-1">
-                                Номер букета: <span class="color-black strong">ABCDEF345</span>
+                                Номер букета: <span class="color-black strong">ABEF345</span>
                             </div>
 
                             <div class="shop-item-available mt5">
-                                Доступность: <span class="color-green strong">Доступен</span>
+                                Наличие: <span class="color-green strong">Доступен</span>
                             </div>
 
                             <div class="row shop-item-detail-price mt10 bt-dotted-1">
@@ -545,7 +545,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="assets/img/shop/img-shop-1.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -572,7 +572,7 @@
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
-                                    <img src="assets/img/shop/img-shop-2.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/box-lx-tulpan.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Casual Jacket</h4>
                                     <span class="shop-item-price">$79.00</span>
                                 </div>
@@ -601,7 +601,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">Sale</div>
-                                    <img src="assets/img/shop/img-shop-3.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/b-35-yellow.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Summer Jacket</h4>
                                     <span class="shop-item-price">$85.00</span>
                                 </div>
@@ -629,7 +629,7 @@
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
-                                    <img src="assets/img/shop/img-shop-4.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/box-xs-pink.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Man Jacket</h4>
                                     <span class="shop-item-price">$57.00</span>
                                 </div>
@@ -658,7 +658,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="assets/img/shop/img-shop-1.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/b-25-pink.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -687,7 +687,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="assets/img/shop/img-shop-2.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/b-101-white.JPG" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -716,7 +716,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="assets/img/shop/img-shop-3.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/b-51-pink.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
@@ -745,7 +745,7 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="assets/img/shop/img-shop-4.png" alt="shop item" class="img-responsive center-block">
+                                    <img src="images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
                                     <h4 class="shop-item-title">Cool Man Jacket</h4>
                                     <span class="shop-item-price">$90.00</span>
                                 </div>
