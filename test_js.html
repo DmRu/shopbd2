@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script>
+        function get_arr(){
+            $.get( "test.php", function (data) {
+                r = $.parseJSON(data);
+                $('#result').html(r);
+            });
+        }
+    </script>
+</head>
+<body>
+
+<button onclick="get_arr()">Поллучить данные</button>
+
+<span id="result"></span>
+
+</body>
+</html>

@@ -27,47 +27,22 @@ mysql_select_db($dbName) or die(mysql_error());
 
     if (!empty($_GET["id"])) {
         $id = $_GET["id"];
-        $query = "SELECT name FROM flowers_name WHERE id=" . $id;
+        $query = "SELECT * FROM flowers WHERE id=" . $id;
         /* Выполнить запрос. Если произойдет ошибка - вывести ее. */
         $res = mysql_query($query) or die(mysql_error());
+        $flower = mysql_fetch_assoc($res);
 
-//print($res, 0);
+        //$name = mysql_result($res, 0);
 
-        $name = mysql_result($res, 0);
-        //echo $query;
+        //$name = mysql_fetch_row($res);
+
     }
     else header( 'Refresh: 0; url=../pages/404.php' );
 
-
-    if (!empty($_GET["am"])) {
-        $am = $_GET["am"];
-        $query = "SELECT class FROM amount WHERE amount=" . $am;
-        /* Выполнить запрос. Если произойдет ошибка - вывести ее. */
-        $class = mysql_query($query) or die(mysql_error());
-
-        //print($res, 0);
-
-
-        $class = mysql_result($class, 0);
-        //echo $query;
-    }
-    else header( 'Refresh: 0; url=../pages/404.php' );
-
-
-
-    if (!empty($_GET["id"])) {
-        $id = $_GET["id"];
-        $query = "SELECT priсe FROM flowers_name WHERE id=" . $id;
-        /* Выполнить запрос. Если произойдет ошибка - вывести ее. */
-        $res = mysql_query($query) or die(mysql_error());
-
-//print($res, 0);
-
-        $price = mysql_result($res, 0) * $_GET["am"];
-        $price_before_sale = round($price * 1.15, -1);
-
-        //echo $query;
-    }
-    else header( 'Refresh: 0; url=../pages/404.php' );
+$name = $flower['name_title'];
+$class = $flower['class'];
+$price = $flower['price'];
+$price_before_sale = $flower['price'] * 1.15;
+$img_250x358_url = $flower['img_250x358_url'];
 
 ?>

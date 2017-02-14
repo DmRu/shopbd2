@@ -156,7 +156,7 @@
                     ===================================== -->
                     <div class="col-md-4 col-sm-6 col-xs-12">                    
                         <div class="shop-item-detail-photo center-block mb25">
-                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="../images/101-roze.jpg" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>
+                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="<?php echo $img_250x358_url; ?>" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>
                             <div class="shop-label bg-blue">Лучшие букеты</div>
                             <div class="shop-label bg-green">Бесплатная доставка</div>
                             <div class="shop-label bg-red">-15%</div>
