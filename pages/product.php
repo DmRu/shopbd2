@@ -1,4 +1,4 @@
-<?php require '../php/bd.php'; ?>
+<?php require '../php/bd_product.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -156,23 +156,23 @@
                     ===================================== -->
                     <div class="col-md-4 col-sm-6 col-xs-12">                    
                         <div class="shop-item-detail-photo center-block mb25">
-                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="<?php echo $img_250x358_url; ?>" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>
+                            <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="<?php echo $img_250x358_url; ?>" data-zoom-image="<?php echo $img_490x490_url; ?>"/>
                             <div class="shop-label bg-blue">Лучшие букеты</div>
                             <div class="shop-label bg-green">Бесплатная доставка</div>
                             <div class="shop-label bg-red">-15%</div>
                             <!--<img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>-->
 
                             <div id="shop-item-detail-photo-gallery"> 
-                                <a href="#" data-image="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"> 
-                                    <img src="../assets/img/shop/img-shop-thumb-1.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
+                                <a href="#" data-image="<?php echo $common_amount1_img_250x358_url ?>" data-zoom-image="<?php echo $common_amount1_img_490x490_url ?>">
+                                    <img src="<?php echo $common_amount1_img_50x72_url ?>" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
-                                <a href="#" data-image="assets/img/shop/img-shop-2.png" data-zoom-image="assets/img/shop/img-shop-2-large.jpg"> 
-                                    <img src="../assets/img/shop/img-shop-thumb-2.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
+                                <a href="#" data-image="<?php echo $common_amount2_img_250x358_url ?>" data-zoom-image="<?php echo $common_amount2_img_490x490_url ?>">
+                                    <img src="<?php echo $common_amount2_img_50x72_url ?>" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
-                                <a href="#" data-image="assets/img/shop/img-shop-3.png" data-zoom-image="assets/img/shop/img-shop-3-large.jpg"> 
+                                <a href="#" data-image="../assets/img/shop/img-shop-3.png" data-zoom-image="../assets/img/shop/img-shop-3-large.jpg">
                                     <img src="../assets/img/shop/img-shop-thumb-3.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
-                                <a href="#" data-image="assets/img/shop/img-shop-4.png" data-zoom-image="assets/img/shop/img-shop-4-large.jpg"> 
+                                <a href="#" data-image="../assets/img/shop/img-shop-4.png" data-zoom-image="../assets/img/shop/img-shop-4-large.jpg">
                                     <img src="../assets/img/shop/img-shop-thumb-4.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                             </div>

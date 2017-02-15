@@ -76,7 +76,14 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        
+
+
+
+        <script src="../js/bd_catalog.js"></script>
+
+
+
+
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
         
@@ -399,323 +406,44 @@
                             </div>                            
                         </div>
                       
-                        <div class="row">
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-pasific">-15%</div>
-                                    <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Букет роз</h4>
-                                    <span class="shop-item-price">₽4950</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                        <div id="content" class="row">
+
+                            <a href="../pages/product.php?id=1">
+                                <div id="cart" class="col-md-4 col-sm-4 col-xs-4">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label bg-pasific">-15%</div>
+                                        <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title">Букет роз</h4>
+                                        <span class="shop-item-price">₽4950</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Подробнее
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-blue">promo</div>
-                                    <div class="shop-label bg-pasific">-30%</div>
-                                    <img src="../images/recomend/b-51-pink.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-xs-3">
+                                            <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
+                                                <i class="fa fa-heart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-6 col-xs-6">
+                                            <a href="#" class="add-to-cart">
+                                                Подробнее
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-3">
+                                            <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-pasific">-50%</div>
-                                    <img src="assets/img/shop/img-shop-2.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-green">new</div>
-                                    <img src="assets/img/shop/img-shop-4.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-pasific">-50%</div>
-                                    <img src="assets/img/shop/img-shop-1.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-cyan">popular</div>
-                                    <img src="assets/img/shop/img-shop-2.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-pasific">-50%</div>
-                                    <img src="assets/img/shop/img-shop-3.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-purple">Best Seller</div>
-                                    <img src="assets/img/shop/img-shop-4.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                   <div class="shop-label bg-blue">Promo</div>
-                                    <img src="assets/img/shop/img-shop-1.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-purple">Best Seller</div>
-                                    <img src="assets/img/shop/img-shop-2.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-pasific">-75%</div>
-                                    <img src="assets/img/shop/img-shop-3.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-4 col-xs-4">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label bg-pasific">-25%</div>
-                                    <img src="assets/img/shop/img-shop-4.png" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
+                            </a>
+
+
                         </div>
-                        
+
+                        <div class="m25">
+                            <button class="button" onclick="get_arr()">Получить</button>
+                        </div>
+
+
                         <div class="row mb25 animated" data-animation="fadeInUp" data-animation-delay="700">
                             <div class="col-md-12 text-center">
                                 <ul class="pagination pagination-pasific">
@@ -771,6 +499,12 @@
         <script src="../assets/js/main/ion.rangeSlider.min.js"></script>
         <script src="../assets/js/main/imagesloaded.pkgd.min.js"></script>
         <script src="../assets/js/main/main.js"></script>
-        
+
+        <script>
+            $(document).ready(function(){
+                get_flower();
+            })
+
+        </script>
     </body>
 </html>

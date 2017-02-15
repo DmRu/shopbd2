@@ -4736,6 +4736,20 @@ ul.pagination.pagination-pasific li.active a {
     transition: background-color 0.5s;
 }
 
+.catalog_button{
+    border: 1px solid #d5d5d0;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.catalog_button:hover{
+    border-color: #ff4530;
+    color: #FF4530 !important;
+}
+
 
 @media(max-width:768px) {
 

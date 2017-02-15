@@ -39,9 +39,5 @@
 
   function show_pupup() {
   	$('#popup').show(200);
-  }
+  };
 
- $('#35_roz').click(function () {
-     location.href = '../pages/product.php';
- })
-  

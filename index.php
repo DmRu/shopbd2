@@ -245,33 +245,33 @@
                           <li><a class="" data-filter=".html">РОЗЫ</a></li>
                           <li><a class="" data-filter=".wordpress">ТЮЛЬПАНЫ</a></li>
                             <li><a class="" data-filter=".woocommerce">СБОРНЫЕ БУКЕТЫ</a></li>
-                          <li><a class="" data-filter=".joomla">КАТАЛОГ</a></li>
+                          <li><a class="catalog_button" href="../pages/catalog.php">КАТАЛОГ<i class="ml10 fa fa-long-arrow-right" style="color: #FF4530;"></i></a></li>
                         </ul>
                         
                         <div class="portfolio-masonry-one">
                             
                             <!-- portfolio item start -->
-                            <a href="pages/product.php?id=1&am=35">
-                                <div id="35_roz" class="portfolio-masonry-one-item width2 woocommerce">
+                           <!-- <a href="pages/product.php?id=2"> -->
+                                <div id="rose_pink_35" class="portfolio-masonry-one-item width2 woocommerce">
                                     <div class="portfolio-mask text-center">
                                         <h6>Modern</h6>
-                                        <p><a href="pages/product.php">35 роз</a></p>
+                                        <p><a>35 роз</a></p>
                                         <div class="portfolio-mask-attr text-center">
-                                            <a href="pages/product.php" title="project title">
+                                            <a title="project title">
                                                 <i class="fa fa-search-plus"></i>
                                             </a>
                                         </div>
                                     </div>
                                     <img src="assets/img/portfolio/thumbs/img-370x165-1.jpg" alt="portfolio woocommerce" class="img-responsive">
                                 </div>
-                            </a>
+                           <!-- </a> -->
                             <!-- portfolio item end -->
                             
                             <!-- portfolio item start -->
                             <div class="portfolio-masonry-one-item height2 woocommerce html">
                                 <div class="portfolio-mask text-center">                                    
                                     <h6>Букет</h6>
-                                    <p><a href="#">41 роза</a></p>
+                                    <p><a href="#">41 тюльпан</a></p>
                                     <div class="portfolio-mask-attr text-center">
                                         <a href="assets/img/portfolio/preview/img-180x340-1.jpg" class="magnific-popup" title="project title">
                                             <i class="fa fa-search-plus"></i>
@@ -300,10 +300,10 @@
                             <!-- portfolio item start -->                            
                             <div class="portfolio-masonry-one-item wordpress joomla">
                                 <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
+                                    <h6>LS-BOX</h6>
+                                    <p><a>11 роз</a></p>
                                     <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-180x165-2.jpg" class="magnific-popup" title="project title">
+                                        <a>
                                             <i class="fa fa-search-plus"></i>
                                         </a>
                                     </div>
@@ -343,7 +343,7 @@
                             <!-- portfolio item end -->
                             
                             <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item width2 width2 magento">
+                            <div id='rose_rad_51' class="portfolio-masonry-one-item width2 width2 magento">
                                 <div class="portfolio-mask text-center">                                    
                                     <h6>Website Project</h6>
                                     <p><a href="#">themeforest.net</a></p>
@@ -963,6 +963,7 @@
         <script src="js/telegram.js"></script>
         <script src="js/typed.js"></script>
         <script src="js/headerswich.js"></script>
+        <script src="js/link_index.js"></script>
 
         <script src="js/typed.js"></script>
         <script>
