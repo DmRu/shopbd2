@@ -1,0 +1,108 @@
+.first_section{
+    height: 100%;
+    background: url(../../images/lp-tolips/tolips-pattern.svg);
+/* background-attachment: fixed; */
+}
+
+.offer{
+ font-family: "Open Sans";
+ letter-spacing: 1px;
+ font-size: 26px;
+ color: #0b0b0b;
+ margin-top: 25%;
+ text-align: right;
+
+}
+
+.bouket_tolips{
+ margin-top: 20%;
+ height: 500px;
+ background: url(../../images/lp-tolips/bouket-tulips.png) 50px 0px no-repeat;
+
+}
+
+.offer_3{
+ text-align: center;
+ float: right;
+ border-radius: 5px;
+ padding: 10px;
+ color: white;
+ width: 215px;
+ height: 55px;
+ font-weight: 700;
+ background-color: #35c21e
+}
+
+.personat_mg{
+ height: 350px;
+ background-color: #eeeeee;
+}
+
+.img_mg{
+ height: 350px;
+ background: url(../../images/lp-tolips/img_mg.jpg) no-repeat;
+ background-position: right center;
+}
+
+.send_massege{
+ margin-top: 15px;
+ width: 215px;
+ padding: 12px;
+ padding-left: 43px;
+ border: 1px solid #507299;
+ border-radius: 5px;
+ background: url(../../images/lp-tolips/vk-507299.svg) 10px 10px no-repeat;
+ background-color: #ffffff;
+ background-size: 25px;
+ cursor: pointer;
+}
+
+.send_massege:hover{
+ color: white;
+ background-size: 25px;
+ background: url(../../images/vk.svg) 10px 10px no-repeat;
+ background-color: #507299;
+ transition: background-color 0.5s;
+}
+
+.chose_colour{
+  width: 170px;
+  height: 45px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 12px;
+  padding-left: 15px;
+  color: #0b0b0b;
+}
+
+.chose_colour:hover{
+ border: 1px solid #ff432b;
+ background: #f8f8f8;
+ cursor: pointer;
+ transition: border 0.5s;
+}
+
+
+.bg_colour{
+ background: #FF432B;
+ border-radius: 100px;
+ height: 20px;
+ width: 20px;
+}
+
+.amount{
+ height: 80px;
+ border: 1px solid #d7ced7;
+ border-radius: 5px;
+ padding: 17px;
+
+}
+
+.amount:hover{
+ border: 1px solid #FF432B;
+ cursor: pointer;
+ transition: border 0.5s;
+}
+
