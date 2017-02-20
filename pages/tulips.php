@@ -90,6 +90,47 @@
     <i class="fa fa-long-arrow-up"></i>
 </a>
 
+
+<div id="searchModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header bg-gray">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 class="modal-title text-center"><i class="fa fa-phone fa-fw"></i>ЗАКАЗ</h5>
+                <div style="padding-top: 15px;">
+                    <div style="width: 50%; float: left; padding-left: 30px;">
+                        <div style="text-align: center; font-size: 18px; font-weight: 200;">Цвета</div>
+                        <div style="background-color: #1a456b; border-radius: 100px; height: 20px; width: 20px;"></div>
+                    </div>
+                    <div style="width: 50%; float: right; text-align: center;">
+                        <div style="text-align: center; font-size: 18px; font-weight: 200;">Размер букета</div>
+                        <div style="font-size: 17px;">35 шт.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div action="#" class="inline-form">
+                    <input type="text" class="modal-search-input" placeholder="контактный номер" autofocus>
+                </div>
+
+            </div>
+            <div class="modal-footer bg-gray">
+                <div style="width: 100%; margin-bottom: 15px;">
+                    <button class="button button-sm button-pasific hover-ripple-out">Отправить</button>
+                </div>
+                <img src="../assets/img/logo/logo-gray2.png" alt="">
+                <span class="text-center"><a href="#" class="color-dark"></a></span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
 <!-- Navigation Area
       ===================================== -->
 <?php include '../section/header_white.php'; ?>
@@ -122,6 +163,11 @@
 
 </div>
 
+<!-- Преимущества  -->
+
+<?php include '../section/advantage.php'; ?>
+
+
 <!-- Ваш персональный менеджер  -->
 
 <div class="personat_mg">
@@ -148,34 +194,34 @@
     <div class="row">
         <div class="col-lg-8" style="background-color: white; height: 300px;">
             <div style="font-size: 22px; font-weight: 300;">ЦВЕТА ТЮЛЬПАНОВ В БУКЕТЕ</div>
-            <div class="chose_colour col-lg-6">
+            <div id="rad" class="chose_colour col-lg-6">
                 <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour" style="float: right;"></div>
+                <div class="bg_colour_rad" style="float: right;"></div>
             </div>
 
             <div class="chose_colour col-lg-6">
-                <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour" style="float: right;"></div>
+                <div style="width: 50%; float: left;">Фиолетовый</div>
+                <div class="bg_colour_purple" style="float: right;"></div>
             </div>
 
             <div class="chose_colour col-lg-6">
-                <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour" style="float: right;"></div>
+                <div style="width: 50%; float: left;">Желтый</div>
+                <div class="bg_colour_yellow" style="float: right;"></div>
             </div>
 
             <div class="chose_colour col-lg-6">
-                <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour" style="float: right;"></div>
+                <div style="width: 50%; float: left;">Розовый</div>
+                <div class="bg_colour_pink" style="float: right;"></div>
             </div>
 
             <div class="chose_colour col-lg-6">
-                <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour" style="float: right;"></div>
+                <div style="width: 50%; float: left;">Белый</div>
+                <div class="bg_colour_white" style="float: right;"></div>
             </div>
 
             <div class="chose_colour col-lg-6">
-                <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour" style="float: right;"></div>
+                <div style="width: 50%; float: left;">Бордовый</div>
+                <div class="bg_colour_vinous" style="float: right;"></div>
             </div>
         </div>
         <div class="col-lg-4" style="height: 300px;">
@@ -185,7 +231,6 @@
 </div>
 
 <div class="container-fluid" style="background: url(../images/lp-tolips/rectangular_line.svg) 100% 100% no-repeat; height: 20px; margin-bottom: 50px;">
-
 </div>
 
 
@@ -197,42 +242,52 @@
     </div>
 
     <div class="col-lg-12" style="margin-top: 50px; margin-bottom: 50px;">
-        <div class="col-lg-3 amount">
+        <div class="col-lg-3 amount" id="21">
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
 
-            <div style="float: right; font-weight: 200; font-size: 32px;">21</div>
+            <div id="21_count" class="count_bouket">21</div>
         </div>
 
-        <div class="col-lg-3 col-lg-offset-1 amount">
+        <div class="col-lg-3 col-lg-offset-1 amount" id="35">
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
 
-            <div style="float: right; font-weight: 200; font-size: 32px;">35</div>
+            <div id="35_count" class="count_bouket">35</div>
         </div>
 
-        <div class="col-lg-3 col-lg-offset-1 amount">
+        <div class="col-lg-3 col-lg-offset-1 amount" id="51">
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
 
-            <div style="float: right; font-weight: 200; font-size: 32px;">51</div>
+            <div id="51_count" class="count_bouket">51</div>
         </div>
     </div>
 </div>
 
+
+<div class="container-fluid" style="background: url(../images/lp-tolips/rectangular_line.svg) 100% 100% no-repeat; height: 20px; margin-bottom: 50px;">
+</div>
+
 <div class="container">
-    <div class="col-lg-4 col-lg-offset-4" style="border: 1px solid #3a9e34; border-radius: 5px; height: 150px; margin-bottom: 100px; padding: 15px;">
+    <div class="col-lg-5 col-lg-offset-3" style="border: 1px solid #3a9e34; border-radius: 5px; height: 165px; margin-bottom: 100px; padding: 20px;">
         <div>
-            <div style="width: 70%; float: left;">Стоимость букета</div>
-            <div style="width: 30%; float: right;">56 руб.</div>
-            <div style="width: 20px; float: left;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
-            <div style="float: left;">Упаковка: Лента или крафт бумага</div>
-            <div style="width: 100%; height: 1px; float: right;"></div>
-            <div style="width: 20px; float: left;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
-            <div style="float: left;">Доставка: Беспльано</div>
+            <div style="width: 70%; float: left; font-size: 20px; font-weight: 400; margin-top: 15px; color: #909090;">Стоимость букета</div>
+            <div style="width: 30%; float: right; font-size: 35px; font-weight: 200; color: #0b0b0b;"><span id="price">~</span> руб.</div>
+            <div style="width: 100%; height: 65px;"></div>
+            <div style="width: 70%; float: left;">
+                <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
+                <div style="float: left; color: #292929;">Упаковка: Лента или крафт бумага</div>
+                <div style="width: 100%; height: 5px; float: right;"></div>
+                <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
+                <div style="float: left; color: #292929;">Доставка: Беспльано</div>
+            </div>
+            <div style="width: 30%;  float: left;">
+                <a href="#" data-toggle="modal" data-target="#searchModal"><div id="order" class="order">ЗАКАЗАТЬ</div></a>
+            </div>
         </div>
     </div>
 </div>
@@ -249,37 +304,40 @@
 
 <!-- JQuery Core
 =====================================-->
-<script src="assets/js/core/jquery.min.js"></script>
-<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="../assets/js/core/jquery.min.js"></script>
+<script src="../assets/js/core/bootstrap.min.js"></script>
 
 <!-- Magnific Popup
 =====================================-->
-<script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
+<script src="../assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="../assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
 
 <!-- Progress Bars
 =====================================-->
-<script src="assets/js/progress-bar/bootstrap-progressbar.min.js"></script>
-<script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
+<script src="../assets/js/progress-bar/bootstrap-progressbar.min.js"></script>
+<script src="../assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
 
 <!-- JQuery Main
 =====================================-->
-<script src="assets/js/main/jquery.appear.js"></script>
-<script src="assets/js/main/isotope.pkgd.min.js"></script>
-<script src="assets/js/main/parallax.min.js"></script>
-<script src="assets/js/main/jquery.countTo.js"></script>
-<script src="assets/js/main/owl.carousel.min.js"></script>
-<script src="assets/js/main/jquery.sticky.js"></script>
-<script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
-<script src="assets/js/main/main.js"></script>
+<script src="../assets/js/main/jquery.appear.js"></script>
+<script src="../assets/js/main/isotope.pkgd.min.js"></script>
+<script src="../assets/js/main/parallax.min.js"></script>
+<script src="../assets/js/main/jquery.countTo.js"></script>
+<script src="../assets/js/main/owl.carousel.min.js"></script>
+<script src="../assets/js/main/jquery.sticky.js"></script>
+<script src="../assets/js/main/imagesloaded.pkgd.min.js"></script>
+<script src="../assets/js/main/main.js"></script>
 <!-- Print
 ================================-->
 
 
-<script src="js/telegram.js"></script>
-<script src="js/typed.js"></script>
-<script src="js/headerswich.js"></script>
-<script src="js/link_index.js"></script>
+<script src="../js/telegram.js"></script>
+<script src="../js/typed.js"></script>
+<script src="../js/headerswich.js"></script>
+<script src="../js/link_index.js"></script>
+<script src="../js/amount_tulips.js"></script>
+<script src="../js/jquery.animateNumber.min.js"></script>
+
 
 <script src="js/typed.js"></script>
 <script>
