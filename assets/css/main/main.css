@@ -4728,6 +4728,8 @@ ul.pagination.pagination-pasific li.active a {
     border: 1px solid white;
     border-radius: 3px;
     color: white;
+    min-width: 100px;
+    max-width: 150px;
 }
 
 .buttom_vk_contacts:hover{

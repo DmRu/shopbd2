@@ -141,13 +141,13 @@
 <div id='first_section' class="container-fluid first_section">
     <div class="container">
         <div class="row">
-            <div class="offer col-lg-5">
+            <div class="offer col-lg-5 col-md-5 col-sm-5">
                 <div style="font-size: 15px; font-weight: 400;"><img style="padding-right: 3px;" src="../images/lp-tolips/hachtag.png" alt="">ДариВесну</div>
                 <div style="margin-bottom: 5px;">ДОСТАВКА БУКЕТОВ</div>
                 <div class="offer_3">ТЮЛЬПАНОВ</div>
 
             </div>
-            <div class="bouket_tolips col-lg-7">
+            <div class="bouket_tolips col-lg-7 col-md-7 col-sm-7">
 
             </div>
 
@@ -173,11 +173,11 @@
 <div class="personat_mg">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="img_mg"></div>
             </div>
-            <div class="col-lg-8" style="padding-left: 40px;">
-                <div style="font-size: 20px; color: #454545; margin-top: 100px; font-weight: 200;">ЗНАКОМЬТЕСЬ, ВАШ ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</div>
+            <div class="col-lg-8 col-md-8 col-sm-8 personal_text" style="padding-left: 40px;">
+                <div style="font-size: 20px; color: #454545; font-weight: 200;">ЗНАКОМЬТЕСЬ, ВАШ ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</div>
                 <div style="font-size: 20px; color: #454545; margin-top: 10px; font-weight: 600;">Елене Орлова</div>
                 <div class="send_massege">Написать сообщение</div>
             </div>
@@ -192,39 +192,39 @@
 
 <div class="container" style="padding-top: 70px;">
     <div class="row">
-        <div class="col-lg-8" style="background-color: white; height: 300px;">
+        <div class="col-lg-8 col-md-8 col-sm-7 select_colour">
             <div style="font-size: 22px; font-weight: 300;">ЦВЕТА ТЮЛЬПАНОВ В БУКЕТЕ</div>
-            <div id="rad" class="chose_colour col-lg-6">
+            <div id="rad" class="chose_colour">
                 <div style="width: 50%; float: left;">Красный</div>
                 <div class="bg_colour_rad" style="float: right;"></div>
             </div>
 
-            <div class="chose_colour col-lg-6">
+            <div id="purple" class="chose_colour">
                 <div style="width: 50%; float: left;">Фиолетовый</div>
                 <div class="bg_colour_purple" style="float: right;"></div>
             </div>
 
-            <div class="chose_colour col-lg-6">
+            <div id="yellow" class="chose_colour">
                 <div style="width: 50%; float: left;">Желтый</div>
                 <div class="bg_colour_yellow" style="float: right;"></div>
             </div>
 
-            <div class="chose_colour col-lg-6">
+            <div id="pink" class="chose_colour">
                 <div style="width: 50%; float: left;">Розовый</div>
                 <div class="bg_colour_pink" style="float: right;"></div>
             </div>
 
-            <div class="chose_colour col-lg-6">
+            <div id="white" class="chose_colour">
                 <div style="width: 50%; float: left;">Белый</div>
                 <div class="bg_colour_white" style="float: right;"></div>
             </div>
 
-            <div class="chose_colour col-lg-6">
+            <div id="vinous" class="chose_colour">
                 <div style="width: 50%; float: left;">Бордовый</div>
                 <div class="bg_colour_vinous" style="float: right;"></div>
             </div>
         </div>
-        <div class="col-lg-4" style="height: 300px;">
+        <div class="col-lg-4 col-md-4 col-sm-5 first_question" style="height: 300px;">
             <div style="width: 100%; height: 100%; background: url(../images/lp-tolips/1_question.jpg) 0px 10px no-repeat;"></div>
         </div>
     </div>
@@ -235,34 +235,32 @@
 
 
 <div class="container">
-    <div class="col-lg-6" style="height: 170px; background: url(../images/lp-tolips/2_question.jpg) no-repeat;"></div>
+    <div class="col-lg-6 col-md-7 col-sm-7 second_question"></div>
 
-    <div class="col-lg-6">
-         <div style="font-size: 22px; font-weight: 300; margin-top: 120px; text-align: right;">РАЗМЕР БУКЕТА</div>
+    <div class="col-lg-5 col-md-4 col-sm-4">
+         <div class='text_size' style="">РАЗМЕР БУКЕТА</div>
     </div>
 
-    <div class="col-lg-12" style="margin-top: 50px; margin-bottom: 50px;">
-        <div class="col-lg-3 amount" id="21">
+    <div class="col-lg-12 col-md-12 col-sm-8 col-md-offset-0 col-lg-offset-0 col-sm-offset-2 col-xs-8 col-xs-offset-2" style="margin-top: 50px; margin-bottom: 50px;">
+
+        <div class="col-lg-3 col-md-3 amount" id="21">
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
-
             <div id="21_count" class="count_bouket">21</div>
         </div>
 
-        <div class="col-lg-3 col-lg-offset-1 amount" id="35">
+        <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 amount" id="35">
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
-
             <div id="35_count" class="count_bouket">35</div>
         </div>
 
-        <div class="col-lg-3 col-lg-offset-1 amount" id="51">
+        <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 amount" id="51">
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
             <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-
             <div id="51_count" class="count_bouket">51</div>
         </div>
     </div>
@@ -273,9 +271,9 @@
 </div>
 
 <div class="container">
-    <div class="col-lg-5 col-lg-offset-3" style="border: 1px solid #3a9e34; border-radius: 5px; height: 165px; margin-bottom: 100px; padding: 20px;">
+    <div class="" style="margin: auto auto; width: 475px; border: 1px solid #3a9e34; border-radius: 5px; height: 165px; margin-bottom: 100px; padding: 20px;">
         <div>
-            <div style="width: 70%; float: left; font-size: 20px; font-weight: 400; margin-top: 15px; color: #909090;">Стоимость букета</div>
+            <div style="width: 70%; float: left; font-size: 20px; font-weight: 200; margin-top: 15px; color: #363636;">СТОИМОСТЬ БУКЕТА</div>
             <div style="width: 30%; float: right; font-size: 35px; font-weight: 200; color: #0b0b0b;"><span id="price">~</span> руб.</div>
             <div style="width: 100%; height: 65px;"></div>
             <div style="width: 70%; float: left;">
@@ -283,7 +281,7 @@
                 <div style="float: left; color: #292929;">Упаковка: Лента или крафт бумага</div>
                 <div style="width: 100%; height: 5px; float: right;"></div>
                 <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
-                <div style="float: left; color: #292929;">Доставка: Беспльано</div>
+                <div style="float: left; color: #292929;">Доставка: Бесплатно</div>
             </div>
             <div style="width: 30%;  float: left;">
                 <a href="#" data-toggle="modal" data-target="#searchModal"><div id="order" class="order">ЗАКАЗАТЬ</div></a>

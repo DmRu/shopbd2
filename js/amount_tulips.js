@@ -46,9 +46,40 @@ $("#51").click(function () {
 
 
 $("#rad").click(function () {
-    $("#rad").addClass("chose_colour_click");
+    if ($(this).hasClass('chose_colour_click')) {
+        $(this).removeClass("chose_colour_click");
+    } else $("#rad").addClass("chose_colour_click");
 });
 
+$("#yellow").click(function () {
+    if ($(this).hasClass('chose_colour_click')) {
+        $(this).removeClass("chose_colour_click");
+    } else $("#yellow").addClass("chose_colour_click");
+});
+
+$("#purple").click(function () {
+    if ($(this).hasClass('chose_colour_click')) {
+        $(this).removeClass("chose_colour_click");
+    } else $("#purple").addClass("chose_colour_click");
+});
+
+$("#pink").click(function () {
+    if ($(this).hasClass('chose_colour_click')) {
+        $(this).removeClass("chose_colour_click");
+    } else $("#pink").addClass("chose_colour_click");
+});
+
+$("#white").click(function () {
+    if ($(this).hasClass('chose_colour_click')) {
+        $(this).removeClass("chose_colour_click");
+    } else $("#white").addClass("chose_colour_click");
+});
+
+$("#vinous").click(function () {
+    if ($(this).hasClass('chose_colour_click')) {
+        $(this).removeClass("chose_colour_click");
+    } else $("#vinous").addClass("chose_colour_click");
+});
 
 
 

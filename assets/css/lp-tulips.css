@@ -66,10 +66,11 @@
 }
 
 .chose_colour{
+ float: left;
   width: 170px;
   height: 45px;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  /*border-radius: 5px;*/
   margin-top: 20px;
   margin-right: 20px;
   padding: 12px;
@@ -78,17 +79,17 @@
 }
 
 .chose_colour:hover{
- border: 1px solid #ff432b;
- background: #f8f8f8;
+ border-bottom: 3px solid #ff432b;
+ /*background: #f8f8f8;*/
  cursor: pointer;
- transition: border 0.5s;
+ transition: border 0.2s;
 }
 
 .chose_colour_click{
- border: 1px solid #ff432b;
- background: #f8f8f8;
+ border-bottom: 3px solid #ff432b;
+ /*background: #f8f8f8;*/
  cursor: pointer;
- transition: border 0.5s;
+ /*transition: border 0.2s;*/
 }
 
 
@@ -118,15 +119,15 @@
 }
 
 .bg_colour_pink{
- background: #ff8936;
+ background: #f86474;
  border-radius: 100px;
  height: 20px;
  width: 20px;
 }
 
 .bg_colour_white{
- border: #b1b5aa;
- background: #FF432B;
+ border: 1px solid #dde4d3;
+ background: #ffffff;
  border-radius: 100px;
  height: 20px;
  width: 20px;
@@ -145,22 +146,25 @@
 
 .amount{
  height: 80px;
- border: 1px solid #d7ced7;
- border-radius: 5px;
+ border: 1px solid #f1f1f1;
+ border-radius: 2px;
  padding: 17px;
+ max-width: 350px;
+ min-width: 200px;
+
 
 }
 
 .amount:hover{
- border: 1px solid #FF432B;
+ border-bottom: 3px solid #ff6b55;
  cursor: pointer;
- transition: border 0.5s;
+ transition: border 0.2s;
 }
 
 .amount_rad{
  height: 80px;
- border: 1px solid #ff432b;
- border-radius: 5px;
+ border-bottom: 3px solid #ff432b;
+ border-radius: 2px;
  padding: 17px;
 }
 
@@ -193,4 +197,94 @@
 
 .select_count{
   font-weight: 400;
+}
+
+.personal_text{
+ margin-top: 100px;
+}
+
+.select_colour{
+ background-color: white;
+ height: 300px;
+}
+
+.second_question{
+ height: 170px;
+ background: url(../../images/lp-tolips/2_question.jpg) no-repeat;
+}
+
+.text_size{
+ font-size: 22px;
+ font-weight: 300;
+ margin-top: 120px;
+ text-align: right;
+}
+
+
+@media(max-width:768px) {
+
+ .personat_mg{
+  height: auto;
+ }
+
+ .img_mg{
+  height: 250px;
+  background-position: center center;
+ }
+
+ .personal_text{
+  text-align: center;
+  margin-top: 1px;
+ }
+
+ .send_massege{
+
+  margin: auto auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+ }
+
+ .offer{
+  padding-left: 50px;
+  text-align: left;
+ }
+ .offer_3{
+  float: left;
+ }
+ .bouket_tolips{
+  background-position: center center;
+ }
+ .bouket_tolips {
+  height: 400px;
+ }
+ .first_section{
+  min-height: 850px;
+ }
+ .intro-direction{
+  display: none;
+ }
+
+.first_question{
+   display: none;
+  }
+.select_colour{
+ height: 250px;
+}
+ .second_question{
+  background-position: center center;
+ }
+
+ .text_size{
+  text-align: center;
+ }
+
+
+
+}
+
+@media(max-width:992px) {
+ .amount{
+  margin: 20px;
+ }
+
 }
