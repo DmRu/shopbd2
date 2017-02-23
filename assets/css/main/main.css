@@ -4730,6 +4730,7 @@ ul.pagination.pagination-pasific li.active a {
     color: white;
     min-width: 100px;
     max-width: 150px;
+    margin-bottom: 20px;
 }
 
 .buttom_vk_contacts:hover{

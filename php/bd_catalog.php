@@ -26,7 +26,7 @@ mysqli_select_db($connect, $dbName) or die(mysql_error());
 
 
 //Получаем всех букетов из БД
-$query = "SELECT * FROM flowers";
+$query = "SELECT * FROM flowers ORDER BY RAND()";
 $res = mysqli_query($connect ,$query) or die(mysqli_error());
 
 $flower[] = mysqli_num_rows($res);

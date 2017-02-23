@@ -98,29 +98,28 @@
         <div class="modal-content">
             <div class="modal-header bg-gray">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h5 class="modal-title text-center"><i class="fa fa-phone fa-fw"></i>ЗАКАЗ</h5>
-                <div style="padding-top: 15px;">
-                    <div style="width: 50%; float: left; padding-left: 30px;">
-                        <div style="text-align: center; font-size: 18px; font-weight: 200;">Цвета</div>
-                        <div style="background-color: #1a456b; border-radius: 100px; height: 20px; width: 20px;"></div>
-                    </div>
-                    <div style="width: 50%; float: right; text-align: center;">
-                        <div style="text-align: center; font-size: 18px; font-weight: 200;">Размер букета</div>
-                        <div style="font-size: 17px;">35 шт.</div>
-                    </div>
-                </div>
+                <h5 class="modal-title text-center"><i class="fa fa-phone fa-fw"></i>Заказать букет</h5>
+
             </div>
             <div class="modal-body">
                 <div action="#" class="inline-form">
-                    <input type="text" class="modal-search-input" placeholder="контактный номер" autofocus>
+                    <input id="phone_from_modal" type="text" class="modal-search-input" placeholder=" ваш контактный номер" autofocus>
                 </div>
 
             </div>
+
+            <!--<div style="width: 100%; padding-top: 110px; height: 100px; margin-bottom: 65px;">-->
+                <div id="sendingMessage_modal" class="statusMessage sending-message"><p>Отправляем сообщение! Пожалуста подождите...</p></div>
+                <div id="successMessage_modal" class="statusMessage success-message"><p>Заказ успешно передан в обработку. Мы свяжемся с вами в бижайшее время для его подтверждения.</p></div>
+                <div id="failureMessage_modal" class="statusMessage failure-message"><p>Упс... Что-то пошло не так. Пожалуста попробуйте ще раз.</p></div>
+                <div id="incompleteMessage_modal" class="statusMessage"><p>Пожалуста заполните все поля перед отправкой</p></div>
+            <!--</div>-->
+
             <div class="modal-footer bg-gray">
                 <div style="width: 100%; margin-bottom: 15px;">
-                    <button class="button button-sm button-pasific hover-ripple-out">Отправить</button>
+                    <button class="button button-sm button-pasific hover-ripple-out" onclick="send_order_tulips()" >Отправить</button>
                 </div>
-                <img src="../assets/img/logo/logo-gray2.png" alt="">
+                <div style="width: 20%; margin-left: 40%"><img src="../assets/img/logo/logo-gray2.svg" alt=""></div>
                 <span class="text-center"><a href="#" class="color-dark"></a></span>
             </div>
         </div>
@@ -178,118 +177,142 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 personal_text" style="padding-left: 40px;">
                 <div style="font-size: 20px; color: #454545; font-weight: 200;">ЗНАКОМЬТЕСЬ, ВАШ ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</div>
-                <div style="font-size: 20px; color: #454545; margin-top: 10px; font-weight: 600;">Елене Орлова</div>
+                <div style="font-size: 20px; color: #454545; margin-top: 10px; font-weight: 600;">Елена Орлова</div>
                 <div class="send_massege">Написать сообщение</div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div style="background: url(../images/lp-tolips/rectangular.svg) no-repeat center; height: 20px;"></div>
-</div>
+<div class="container-fluid" style="background: url(../images/lp-tolips/tolips-pattern3.svg); background-attachment: fixed;">
 
-
-<div class="container" style="padding-top: 70px;">
-    <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-7 select_colour">
-            <div style="font-size: 22px; font-weight: 300;">ЦВЕТА ТЮЛЬПАНОВ В БУКЕТЕ</div>
-            <div id="rad" class="chose_colour">
-                <div style="width: 50%; float: left;">Красный</div>
-                <div class="bg_colour_rad" style="float: right;"></div>
-            </div>
-
-            <div id="purple" class="chose_colour">
-                <div style="width: 50%; float: left;">Фиолетовый</div>
-                <div class="bg_colour_purple" style="float: right;"></div>
-            </div>
-
-            <div id="yellow" class="chose_colour">
-                <div style="width: 50%; float: left;">Желтый</div>
-                <div class="bg_colour_yellow" style="float: right;"></div>
-            </div>
-
-            <div id="pink" class="chose_colour">
-                <div style="width: 50%; float: left;">Розовый</div>
-                <div class="bg_colour_pink" style="float: right;"></div>
-            </div>
-
-            <div id="white" class="chose_colour">
-                <div style="width: 50%; float: left;">Белый</div>
-                <div class="bg_colour_white" style="float: right;"></div>
-            </div>
-
-            <div id="vinous" class="chose_colour">
-                <div style="width: 50%; float: left;">Бордовый</div>
-                <div class="bg_colour_vinous" style="float: right;"></div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-5 first_question" style="height: 300px;">
-            <div style="width: 100%; height: 100%; background: url(../images/lp-tolips/1_question.jpg) 0px 10px no-repeat;"></div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid" style="background: url(../images/lp-tolips/rectangular_line.svg) 100% 100% no-repeat; height: 20px; margin-bottom: 50px;">
-</div>
-
-
-<div class="container">
-    <div class="col-lg-6 col-md-7 col-sm-7 second_question"></div>
-
-    <div class="col-lg-5 col-md-4 col-sm-4">
-         <div class='text_size' style="">РАЗМЕР БУКЕТА</div>
+    <div class="container" style="border-left: 1px solid #e5dfd9; border-right: 1px solid #e5dfd9; background: white;">
+        <div style="background: url(../images/lp-tolips/rectangular.svg) white no-repeat center; height: 20px;"></div>
     </div>
 
-    <div class="col-lg-12 col-md-12 col-sm-8 col-md-offset-0 col-lg-offset-0 col-sm-offset-2 col-xs-8 col-xs-offset-2" style="margin-top: 50px; margin-bottom: 50px;">
 
-        <div class="col-lg-3 col-md-3 amount" id="21">
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
-            <div id="21_count" class="count_bouket">21</div>
-        </div>
+    <div class="container border" style="padding-top: 70px; background-color: white; border-top: none; border-radius: 0px 0px 5px 5px;">
+        <div class="row">
+            <div class="col-lg-7 col-lg-offset-1 col-md-8 col-sm-7 select_colour">
+                <div style="font-size: 22px; font-weight: 300;">
+                    <h4 class="text-center text-uppercase font-montserrat color-dark mb50" style="text-align: left;">
+                        Цвета тюльпанов
+                        <small class="heading-desc text-lowercase">
+                            Выберите цвета каоторые вам нравятся и мы добавим их в букет
+                        </small>
+                        <small class="heading heading-solid right-block"> </small>
+                </div>
 
-        <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 amount" id="35">
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
-            <div id="35_count" class="count_bouket">35</div>
-        </div>
+                <div id="rad" class="chose_colour">
+                    <div style="width: 50%; float: left;">Красный</div>
+                    <div class="bg_colour_rad" style="float: right;"></div>
+                </div>
 
-        <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 amount" id="51">
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-            <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
-            <div id="51_count" class="count_bouket">51</div>
-        </div>
-    </div>
-</div>
+                <div id="purple" class="chose_colour">
+                    <div style="width: 50%; float: left;">Фиолетовый</div>
+                    <div class="bg_colour_purple" style="float: right;"></div>
+                </div>
 
+                <div id="yellow" class="chose_colour">
+                    <div style="width: 50%; float: left;">Желтый</div>
+                    <div class="bg_colour_yellow" style="float: right;"></div>
+                </div>
 
-<div class="container-fluid" style="background: url(../images/lp-tolips/rectangular_line.svg) 100% 100% no-repeat; height: 20px; margin-bottom: 50px;">
-</div>
+                <div id="pink" class="chose_colour">
+                    <div style="width: 50%; float: left;">Розовый</div>
+                    <div class="bg_colour_pink" style="float: right;"></div>
+                </div>
 
-<div class="container">
-    <div class="" style="margin: auto auto; width: 475px; border: 1px solid #3a9e34; border-radius: 5px; height: 165px; margin-bottom: 100px; padding: 20px;">
-        <div>
-            <div style="width: 70%; float: left; font-size: 20px; font-weight: 200; margin-top: 15px; color: #363636;">СТОИМОСТЬ БУКЕТА</div>
-            <div style="width: 30%; float: right; font-size: 35px; font-weight: 200; color: #0b0b0b;"><span id="price">~</span> руб.</div>
-            <div style="width: 100%; height: 65px;"></div>
-            <div style="width: 70%; float: left;">
-                <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
-                <div style="float: left; color: #292929;">Упаковка: Лента или крафт бумага</div>
-                <div style="width: 100%; height: 5px; float: right;"></div>
-                <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
-                <div style="float: left; color: #292929;">Доставка: Бесплатно</div>
+                <div id="white" class="chose_colour">
+                    <div style="width: 50%; float: left;">Белый</div>
+                    <div class="bg_colour_white" style="float: right;"></div>
+                </div>
+
+                <div id="vinous" class="chose_colour">
+                    <div style="width: 50%; float: left;">Бордовый</div>
+                    <div class="bg_colour_vinous" style="float: right;"></div>
+                </div>
             </div>
-            <div style="width: 30%;  float: left;">
-                <a href="#" data-toggle="modal" data-target="#searchModal"><div id="order" class="order">ЗАКАЗАТЬ</div></a>
+            <div class="col-lg-4 col-md-4 col-sm-5 first_question" style="height: 300px;">
+                <div style="width: 100%; height: 100%; background: url(../images/lp-tolips/1_question.jpg) 0px 13px no-repeat;"></div>
             </div>
         </div>
     </div>
-</div>
 
+   <div class="container" style="height: 25px;">
+    </div>
+
+
+    <div class="container border" style="background-color: white; padding-top: 50px">
+        <div class="col-lg-5 col-lg-offset-1 col-md-7 col-sm-7 second_question"></div>
+
+        <div class="col-lg-5 col-md-4 col-sm-4">
+             <div class='text_size' style="">
+                 <h4 class="text-center text-uppercase font-montserrat color-dark mb50" style="text-align: right;">
+                     Размер букета
+                     <small class="heading-desc text-lowercase">
+                         Выберите один из популятрых размеров или сообшите нам нужное количество цветов для букета
+                     </small>
+                     <small class="heading heading-solid" style="float: right;"> </small>
+             </div>
+        </div>
+
+        <div class="col-lg-10 col-md-12 col-sm-8 col-md-offset-0 col-lg-offset-1 col-sm-offset-2 col-xs-8 col-xs-offset-2" style="margin-top: 50px; margin-bottom: 60px;">
+            <div class="col_div">
+                <div class="amount" id="21">
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
+                    <div id="21_count" class="count_bouket">21</div>
+                </div>
+            </div>
+            <div class="col_div">
+                <div class="amount" id="35">
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_gray.svg" alt=""></div>
+                    <div id="35_count" class="count_bouket">35</div>
+                </div>
+            </div>
+            <div class="col_div">
+                <div class="amount" id="51">
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
+                    <div style="width: 30px; float: left; margin: 5px;"><img src="../images/lp-tolips/flower_rad.svg" alt=""></div>
+                    <div id="51_count" class="count_bouket">51</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+   <!-- <div class="container-fluid" style="background: url(../images/lp-tolips/rectangular_line.svg) 100% 100% no-repeat; height: 20px; margin-bottom: 50px;">
+    </div> -->
+
+    <div class="container" style="height: 50px;">
+    </div>
+
+    <div class="container">
+        <div class="" style="background: rgba(255, 255, 255, 0.5); margin: auto auto; max-width: 475px; border: 2px solid #3a9e34; border-radius: 5px; height: 165px; margin-bottom: 100px; padding: 20px;">
+            <div>
+                <div style="width: 70%; float: left; font-size: 20px; font-weight: 200; margin-top: 15px; color: #363636;">БУКЕТ ТЮЛЬПАНОВ</div>
+                <div style="width: 30%; float: right; font-size: 35px; font-weight: 200; color: #0b0b0b;"><span id="price">~</span> руб.</div>
+                <div style="width: 100%; height: 65px;"></div>
+                <div style="width: 70%; float: left;">
+                    <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
+                    <div style="float: left; color: #292929;">Упаковка: Лента или крафт бумага</div>
+                    <div style="width: 100%; height: 5px; float: right;"></div>
+                    <div style="width: 20px; float: left; margin-right: 5px;"><img src="../images/lp-tolips/chek.svg" alt=""></div>
+                    <div style="float: left; color: #292929;">Доставка: Бесплатно</div>
+                </div>
+                <div style="width: 30%;  float: left;">
+                    <a href="#" data-toggle="modal" data-target="#searchModal"><div id="order" class="order">ЗАКАЗАТЬ</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php include '../section/form_contacts.php'; ?>

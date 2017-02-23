@@ -22,7 +22,7 @@
                     <ul class="nav navbar-nav">
                         <li><a id='topmeny' href="http://vk.com" target="_blank" style="padding-left: 30px; color: #0b0b0b !important;" class="dropdown-toggle color-light"><div id='vk_nav' class="vk_navbar_red" alt="vk" >  Напишите нам </div></a>
 
-                        <li><a href="#" data-toggle="modal" data-target="#searchModal"><i class="fa fa-search fa-fw"></i></a></li>
+                       <!-- <li><a href="#" data-toggle="modal" data-target="#searchModal"><i class="fa fa-search fa-fw"></i></a></li>-->
 
                     </ul>
 

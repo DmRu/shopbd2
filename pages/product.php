@@ -126,7 +126,7 @@
         
         <!-- Subheader Area
         ===================================== -->
-        <header class="bg-grad-stellar" style="margin-top: 80px; background: url(../images/bgfoto.jpg) -7px -733px;">
+        <header class="bg-grad-stellar" style="margin-top: 80px;" >
 
             <div class="container">
                 <div class="row mt20 mb30">
@@ -136,7 +136,7 @@
                     <div class="col-md-6 pt35">
                         <ul class="breadcrumb text-right">
                             <li><a href="#">Главная</a></li>
-                            <li><a href="#">Каталог</a></li>
+                            <li><a href="../pages/catalog.php">Каталог</a></li>
                             <li><?php echo $name;?><span> </span><?php echo $class;?></li>
                         </ul>
                     </div>
@@ -163,17 +163,17 @@
                             <!--<img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>-->
 
                             <div id="shop-item-detail-photo-gallery"> 
+                                <a href="#" data-image="<?php echo $img_250x358_url ?>" data-zoom-image="<?php echo $img_490x490_url ?>">
+                                    <img src="<?php echo $img_50x72_url ?>" class="shop-item-detail-photo-thumbnail" alt="item photo" />
+                                </a> 
                                 <a href="#" data-image="<?php echo $common_amount1_img_250x358_url ?>" data-zoom-image="<?php echo $common_amount1_img_490x490_url ?>">
                                     <img src="<?php echo $common_amount1_img_50x72_url ?>" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                                 <a href="#" data-image="<?php echo $common_amount2_img_250x358_url ?>" data-zoom-image="<?php echo $common_amount2_img_490x490_url ?>">
                                     <img src="<?php echo $common_amount2_img_50x72_url ?>" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
-                                <a href="#" data-image="../assets/img/shop/img-shop-3.png" data-zoom-image="../assets/img/shop/img-shop-3-large.jpg">
-                                    <img src="../assets/img/shop/img-shop-thumb-3.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
-                                </a> 
-                                <a href="#" data-image="../assets/img/shop/img-shop-4.png" data-zoom-image="../assets/img/shop/img-shop-4-large.jpg">
-                                    <img src="../assets/img/shop/img-shop-thumb-4.png" class="shop-item-detail-photo-thumbnail" alt="item photo" />
+                                <a href="#" data-image="<?php echo $common_amount3_img_250x358_url ?>" data-zoom-image="<?php echo $common_amount3_img_490x490_url ?>">
+                                    <img src="<?php echo $common_amount3_img_50x72_url ?>" class="shop-item-detail-photo-thumbnail" alt="item photo" />
                                 </a> 
                             </div>
 
@@ -545,9 +545,9 @@
                             <div class="shop-item-container-out">
                                 <div class="shop-item-container-in">
                                     <div class="shop-label">-50%</div>
-                                    <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
+                                    <img src="<?php echo $recommendations[0]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                    <h4 class="shop-item-title"><?php echo $recommendations[0]['name_title']; ?> - <?php echo $recommendations[0]['amount']; ?></h4>
+                                    <span class="shop-item-price"><?php echo $recommendations[0]['price']; ?></span>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-3">

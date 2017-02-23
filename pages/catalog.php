@@ -411,7 +411,7 @@
                             <a href="../pages/product.php?id=1">
                                 <div id="cart" class="col-md-4 col-sm-4 col-xs-4">
                                     <div class="shop-item-container-in">
-                                        <div class="shop-label bg-pasific">-15%</div>
+                                        <!---<div class="shop-label bg-pasific">15%</div>-->
                                         <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
                                         <h4 class="shop-item-title">Букет роз</h4>
                                         <span class="shop-item-price">₽4950</span>
@@ -444,6 +444,7 @@
                         </div>
 
 
+                      <!-- Пагинация
                         <div class="row mb25 animated" data-animation="fadeInUp" data-animation-delay="700">
                             <div class="col-md-12 text-center">
                                 <ul class="pagination pagination-pasific">
@@ -459,6 +460,7 @@
                                 </ul>
                             </div>
                         </div>
+                        -->
                         
                     </div>                    
                              
