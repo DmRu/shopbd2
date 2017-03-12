@@ -25,7 +25,6 @@ a.add-to-cart:hover,
 #blog form.blog-form-search button,
 .badge-pasific,
 .price-three .price-badge,
-#sidebar ul.tag li:hover,
 .irs-from, .irs-to, .irs-single,
 input[type=checkbox]:checked + label:before,
 .button-pasific.hover-fade:hover, .button-pasific.hover-fade:focus, .button-pasific.hover-fade:active,
@@ -43,6 +42,10 @@ input[type=checkbox]:checked + label:before,
 .button-pasific.hover-shutter-out-horizontal:before,
 .button-pasific.hover-shutter-out-vertical:before {
     background-color: #ff4530 !important;
+}
+
+#sidebar ul.tag li:hover {
+    background-color: rgb(255, 69, 49) !important;
 }
 
 /*  --------------------------------------------------------

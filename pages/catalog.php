@@ -79,13 +79,18 @@
 
 
 
-        <script src="../js/bd_catalog.js"></script>
+
 
 
 
 
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLN2WWL"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
         
         <!-- Page Loader
         ===================================== -->
@@ -131,7 +136,7 @@
         
         <!-- Subheader Area
         ===================================== -->
-        <header class="bg-grad-stellar" style="margin-top: 80px; background: url(../images/bgfoto.jpg) -7px -733px;">
+        <header class="bg-grad-stellar" style="margin-top: 80px;">
 
             <div class="container">
                 <div class="row mt20 mb30">
@@ -174,7 +179,7 @@
                         -->
 
                         <!-- Sidebar Cart
-                        ===================================== -->
+                        =====================================
                         <div class="pr25 pl25 clearfix">
                             <h5 class="mt25">
                                 Корзина
@@ -203,10 +208,10 @@
                             <h5><span class="text-gray">Общая стоимость:</span> <span class="text-pasific">$224.00</span></h5>
                             <a class="button button-block button-pasific button-sm hover-ripple-out mt-30">Оформить<i class="fa fa-shopping-basket fa-fw fa-1x"></i></a>
                         </div>
-                        
+                        -->
                         
                         <!-- Categories
-                        ===================================== -->
+                        ===================================== -
                         <div class="pr25 pl25 clearfix">
                             <h5 class="mt25">
                                 Категории
@@ -222,59 +227,59 @@
                             </ul>
                            
                         </div>
-                        
-                        
-                        <!-- Filter by Price
-                        ===================================== -->
-                        <div class="pr25 pl25 clearfix">
-                            <h5 class="mt25">
-                                Фильтр по цене
-                                <span class="heading-divider mt10"></span>
-                            </h5>             
-                            <input type="text" id="shop-range-price" name="shop-range-price" value="" />
-                            <button type="submit" class="button button-block button-sm button-pasific mt10 hover-ripple-out">Подобрать</button>
-                        </div>
-                        
-                        
+                        ->
+
                         <!-- Tags
                         ===================================== -->
                         <div class="pr25 pl25 clearfix">
                             <h5 class="mt25">
-                                Popular Tags
+                                Размер букета
                                 <span class="heading-divider mt10"></span>
                             </h5>
                             <ul class="tag">
-                                <li><a href="#">Розы</a></li>
-                                <li><a href="#">Коробки</a></li>
-                                <li><a href="#">Тюльпаны</a></li>
-                                <li><a href="#">Сборные букеты</a></li>
-                                <li><a href="#">Акции</a></li>
-                                <li><a href="#">Macbook</a></li>
-                                <li><a href="#">Apple</a></li>
+                                <li id='25' class="tag_class">25 роза</li>
+                                <li id='35' class="tag_class">35 роз</li>
+                                <li id='51' class="tag_class">51 розы</li>
+                                <li id='101' class="tag_class">101 роза</li>
                             </ul>
-                           
+
                         </div>
-                        
-                        
+
+
                         <!-- Shop by Color
+                        ===================================== -->
+                        <div id="colour" class="pr25 pl25 clearfix">
+                            <h5 class="mt25">
+                                Цвета
+                                <span class="heading-divider mt10"></span>
+                            </h5>
+                            <a  class="shop-by-color bgg-yellow" data-toggle="tooltip" title="Желтый" data-placement="bottom">&nbsp;</a>
+                            <a  class="shop-by-color bgg-rad" data-toggle="tooltip" title="Красный" data-placement="bottom">&nbsp;</a>
+                            <a  class="shop-by-color bgg-pink" data-toggle="tooltip" title="Розовый" data-placement="bottom">&nbsp;</a>
+                            <a  class="shop-by-color bgg-white" data-toggle="tooltip" title="Белый" data-placement="bottom">&nbsp;</a>
+                            <a  class="shop-by-color bgg-sand" data-toggle="tooltip" title="Песочный" data-placement="bottom">&nbsp;</a>
+                            <a  class="shop-by-color bgg-cream" data-toggle="tooltip" title="Кремовый" data-placement="bottom">&nbsp;</a>
+                            <a  class="shop-by-color bgg-peach" data-toggle="tooltip" title="Персиковый" data-placement="bottom">&nbsp;</a>
+                        </div>
+
+
+                        <!-- Filter by Price
                         ===================================== -->
                         <div class="pr25 pl25 clearfix">
                             <h5 class="mt25">
-                                Shop By Color
+                                Цена
                                 <span class="heading-divider mt10"></span>
-                            </h5>                            
-                            <a href="#" class="shop-by-color bg-orange" data-toggle="tooltip" title="Orange" data-placement="bottom">&nbsp;</a>
-                            <a href="#" class="shop-by-color bg-blue" data-toggle="tooltip" title="Blue" data-placement="bottom">&nbsp;</a>
-                            <a href="#" class="shop-by-color bg-cyan" data-toggle="tooltip" title="Cyan" data-placement="bottom">&nbsp;</a>
-                            <a href="#" class="shop-by-color bg-purple" data-toggle="tooltip" title="Purple" data-placement="bottom">&nbsp;</a>
-                            <a href="#" class="shop-by-color bg-red" data-toggle="tooltip" title="Red" data-placement="bottom">&nbsp;</a>
-                            <a href="#" class="shop-by-color bg-yellow" data-toggle="tooltip" title="Yellow" data-placement="bottom">&nbsp;</a>
-                            <a href="#" class="shop-by-color bg-dark" data-toggle="tooltip" title="Black" data-placement="bottom">&nbsp;</a>
+                            </h5>             
+                            <input type="text" id="shop-range-price" name="shop-range-price" value="1"/>
+                            <button type="submit" onclick="find()" class="button button-block button-sm button-pasific mt10 hover-ripple-out">Найти</button>
                         </div>
                         
                         
+
+                        
+                        
                         <!-- Shop by Brand
-                        ===================================== -->
+                        =====================================
                         <div class="pr25 pl25 clearfix">
                             <h5 class="mt25">
                                 Shop By Brand
@@ -303,13 +308,13 @@
                                 <label for="check7">Louis Vuitton</label>
                             </div>
                         </div>
-                        
+                        -->
                         
                         <!-- Popular Products
                         ===================================== -->
                         <div class="pr25 pl25 clearfix">
                             <h5 class="mt25">
-                                Popular Products
+                                Популярные букеты
                                 <span class="heading-divider mt10"></span>
                             </h5>
                             <div class="shop-sidebar-cart">
@@ -363,11 +368,12 @@
                              
                         
                     </div>                    
-                    
+
                     <div class="col-md-9 text-center">
-                     
+
                         <div class="row mt25 mb25 animated" data-animation="fadeInDown" data-animation-delay="100">                            
-                            <div class="col-md-2 col-sm-2 col-xs-2 pull-left">
+                           <h3 style="float: left; padding-left: 15px;">Готовые букеты</h3>
+                           <!-- <div class="col-md-2 col-sm-2 col-xs-2 pull-left">
                                 <ul class="list-inline">
                                     <li><a href="#" class="shop-layout pull-left"><i class="fa fa-th"></i></a></li>
                                     <li><a href="#" class="shop-layout pull-left"><i class="fa fa-align-justify"></i></a></li>
@@ -403,20 +409,20 @@
                                     </select>
                                     <label>Items Per Page</label>
                                 </form>
-                            </div>                            
+                            </div>    -->
                         </div>
                       
                         <div id="content" class="row">
 
-                            <a href="../pages/product.php?id=1">
-                                <div id="cart" class="col-md-4 col-sm-4 col-xs-4">
+                            <a id="cart" href="../pages/product.php?id=1">
+                                <div  class="col-md-4 col-sm-4 col-xs-4" style="background-color: white;">
                                     <div class="shop-item-container-in">
                                         <!---<div class="shop-label bg-pasific">15%</div>-->
                                         <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
                                         <h4 class="shop-item-title">Букет роз</h4>
                                         <span class="shop-item-price">₽4950</span>
                                     </div>
-                                    <div class="row">
+                                   <!-- <div class="row">
                                         <div class="col-sm-3 col-xs-3">
                                             <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
                                                 <i class="fa fa-heart"></i>
@@ -432,15 +438,14 @@
                                                 <i class="fa fa-envelope"></i>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </a>
 
 
                         </div>
 
-                        <div class="m25">
-                            <button class="button" onclick="get_arr()">Получить</button>
+                        <div class="m45">
                         </div>
 
 
@@ -484,6 +489,9 @@
         =====================================-->
         <script src="../assets/js/core/jquery.min.js"></script>
         <script src="../assets/js/core/bootstrap.min.js"></script>
+        <script src="../js/filtr_catalog.js"></script>
+        <script src="../js/bd_catalog.js"></script>
+
         
         <!-- Magnific Popup
         =====================================-->

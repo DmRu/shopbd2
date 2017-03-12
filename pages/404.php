@@ -77,6 +77,10 @@
         
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLN2WWL"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
         
         
         <!-- Page Loader

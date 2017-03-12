@@ -387,11 +387,11 @@ $(document).ready(function() {
             $rangePrice.ionRangeSlider({
                 type: "double",
                 grid: true,
-                min: 0,
-                max: 250,
-                from: 45,
-                to: 200,
-                prefix: "$"
+                min: 1000,
+                max: 6000,
+                from: 1500,
+                to: 5500,
+                prefix: ""
             });
         };
     });

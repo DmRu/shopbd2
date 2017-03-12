@@ -86,14 +86,27 @@ COLOR SETTING
 .bg-light-transparent { background-color: rgba(255,255,255,.75) !important; }
 .bg-dark-video { background-color: rgba(0,0,0,.8) !important; }
 
-.bg-red     { background-color: #fd3635 !important; }
+
 .bg-pink    { background-color: #fd40b3 !important; }
 .bg-orange  { background-color: #ff8b34 !important; }
 .bg-purple  { background-color: #a85ad4 !important; }
 .bg-blue    { background-color: #3dace1 !important; }
-.bg-cyan	{ background-color: #1abc9c !important; }
-.bg-green	{ background-color: #b2cc71 !important; }
+.bg-rad	{ background-color: #ed2015 !important; }
+.bg-peach	{ background-color: #f17a45 !important; }
 .bg-yellow	{ background-color: #ffc501 !important; }
+
+.bgg-white { background-color: #fffff2; border: 1px solid #cccccc;}
+.bgg-peach { background-color: #f17a45; !important;}
+.bgg-rad { background-color: #ed2015;}
+.bgg-pink { background-color: #d94476;}
+.bgg-yellow { background-color: #f0d246;}
+.bgg-sand { background-color: #fadeac;}
+.bgg-cream { background-color: #f6e2c6;}
+
+
+
+
+
 
 .bg-dark 	{ background-color: #5f6467 !important; }
 .bg-dark2 	{ background-color: #323a45 !important; }

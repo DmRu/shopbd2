@@ -80,6 +80,11 @@
         
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLN2WWL"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
         
         <!-- Page Loader
         ===================================== -->
@@ -131,13 +136,13 @@
             <div class="container">
                 <div class="row mt20 mb30">
                     <div class="col-md-6 text-left">
-                        <h3 class="color-light text-uppercase"><?php echo $name;?><span> </span><?php echo $class;?><small class="color-light alpha7">Рекомендуем</small></h3>
+                        <h3 class="color-light text-uppercase"><?php echo $name;?><span style="font-weight: 200;"> <?php echo $class;?></span><small class="color-light alpha7">Лучшие букеты</small></h3>
                     </div>
                     <div class="col-md-6 pt35">
                         <ul class="breadcrumb text-right">
                             <li><a href="#">Главная</a></li>
                             <li><a href="../pages/catalog.php">Каталог</a></li>
-                            <li><?php echo $name;?><span> </span><?php echo $class;?></li>
+                            <li><?php echo $name;?><span> <?php echo $class;?></span></li>
                         </ul>
                     </div>
                 </div>
@@ -158,8 +163,8 @@
                         <div class="shop-item-detail-photo center-block mb25">
                             <img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="<?php echo $img_250x358_url; ?>" data-zoom-image="<?php echo $img_490x490_url; ?>"/>
                             <div class="shop-label bg-blue">Лучшие букеты</div>
-                            <div class="shop-label bg-green">Бесплатная доставка</div>
-                            <div class="shop-label bg-red">-15%</div>
+                            <!--<div class="shop-label bg-green">Бесплатная доставка</div>
+                            <div class="shop-label bg-red">-15%</div>-->
                             <!--<img id="zoom_01" class="shop-item-detail-photo-active img-responsive" alt="photo item active" src="assets/img/shop/img-shop-1.png" data-zoom-image="assets/img/shop/img-shop-1-large.jpg"/>-->
 
                             <div id="shop-item-detail-photo-gallery"> 
@@ -184,7 +189,7 @@
                     ===================================== -->
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="shop-item-detail-description">
-                            <h3><?php echo $name;?><span> </span><?php echo $class;?></h3>
+                            <h3><?php echo $name;?><span style="font-weight: 200;"> <?php echo $class;?></span></h3>
 
                             <div class="shop-item-sku mt20 pt10 bt-dotted-1">
                                 Номер букета: <span class="color-black strong">ABEF345</span>
@@ -196,12 +201,12 @@
 
                             <div class="row shop-item-detail-price mt10 bt-dotted-1">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <ins><span class="amount">₽<?php echo  $price;?></span></ins>
-                                    <del><span class="amount">₽<?php echo  $price_before_sale;?></span></del>
+                                    <ins><span class="amount"><?php echo  $price;?> руб.</span></ins>
+                                    <del><span class="amount"><?php echo  $price_before_sale;?> руб.</span></del>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="alert alert-info mt15">
-                                        <strong>Бесплатная доставка</strong> по Москве. <a href="#">Подробнее</a>
+                                    <div class="alert alert-info mt15" style="text-align: center;">
+                                        <strong>Бесплатная доставка</strong> по Минску. <!--<a href="#">Подробнее</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -215,7 +220,7 @@
                                     <i class="fa fa-star color-yellow"></i>
                                     <i class="fa fa-star-half-o color-yellow"></i>
                                 </a>
-                                275 Отзывов <a href="#" class="ml10"><i class="fa fa-pencil mr5"></i>Написать отзыв</a>
+                                173 Отзывов
                             </div>                
 
                             <div class="shop-item-detail-desc mt10 pt10 bt-dotted-1">
@@ -228,10 +233,10 @@
                             <form class="ml15">
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12 pt10 bt-dotted-1">
-                                        <div class="pull-left">
-                                            <label>Колличестов:</label>
-                                            <input type="number" min="0" class="form-control input-md input-rounded shop-item-quantity pull-left mr20" value="1">
-                                        </div>
+                                        <!-- <div class="pull-left">
+                                             <label>Колличестов:</label>
+                                             <input type="number" min="0" class="form-control input-md input-rounded shop-item-quantity pull-left mr20" value="1">
+                                        </div> -->
                                         <!--
                                         <div class="pull-left">
                                             <label>Size:</label>
@@ -244,36 +249,34 @@
                                         </div>
                                         -->
                                         <div class="pull-left">
-                                            <label>Color:</label>
-                                            <a href="#"><span class="shop-item-color blue"></span></a>
-                                            <a href="#"><span class="shop-item-color brown"></span></a>
-                                            <a href="#"><span class="shop-item-color cyan"></span></a>
-                                            <a href="#"><span class="shop-item-color green"></span></a>
+                                            <label>Доступные цвета:</label>
+                                            <a href="#"><span class="shop-item-color rad"></span></a>
+                                            <a href="#"><span class="shop-item-color peach"></span></a>
+                                            <a href="#"><span class="shop-item-color white"></span></a>
+                                            <a href="#"><span class="shop-item-color pink"></span></a>
                                             <!--<a href="#"><span class="shop-item-color green active"></span></a> active color --> 
-                                            <a href="#"><span class="shop-item-color orange"></span></a>
-                                            <a href="#"><span class="shop-item-color purple"></span></a>
-                                            <a href="#"><span class="shop-item-color red"></span></a>
                                             <a href="#"><span class="shop-item-color yellow"></span></a>
+                                            <a href="#"><span class="shop-item-color cream"></span></a>
+                                            <a href="#"><span class="shop-item-color sand"></span></a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12 xol-xs-12 mt10 pt10 bt-dotted-1">
-                                        <a class="button button-md button-pasific hover-icon-wobble-horizontal ml-20">в корзину<i class="fa fa-shopping-basket"></i></a>
-                                        <a class="button-o button-md button-green hover-bounce-to-right">в избранное</a>
+                                        <a class="button button-md button-pasific hover-icon-wobble-horizontal ml-20" style="width: 250px;">Заказать<i class="fa fa-shopping-basket"></i></a>
+                                       <!-- <a class="button-o button-md button-green hover-bounce-to-right">в избранное</a>
                                         <a class="button-o button-md button-cyan hover-bounce-to-left">Добавитть к сравнению</a>
-                                        <a class="button-o button-md button-blue hover-bounce-to-left">Купить</a>
+                                        <a class="button-o button-md button-blue hover-bounce-to-left">Купить</a>-->
                                     </div>
                                 </div>
 
                             </form>                            
 
                             <div class="shop-item-detail-cat mt10 pt10 bt-dotted-1">
-                                Shares: 
+                                Поделиться:
                                 <a href="#"><i class="fa fa-facebook-official mr5"></i></a>
                                 <a href="#"><i class="fa fa-twitter mr5"></i></a>
-                                <a href="#"><i class="fa fa-linkedin mr5"></i></a>
                                 <a href="#"><i class="fa fa-pinterest mr5"></i></a>
                                 <a href="#"><i class="fa fa-google-plus mr5"></i></a>
                             </div>
@@ -283,253 +286,15 @@
 
                 </div><!-- row end -->
 
-                <!-- Tab Content
-                ===================================== -->
-                <div class="row mt25">
-                    <div class="col-md-12">
-                        <ul class="nav nav-tabs">
-                          <li class="active"><a data-toggle="tab" href="#item_description" class="text-uppercase">Item Description</a></li>
-                          <li><a data-toggle="tab" href="#shop_item_additional_information" class="text-uppercase">Additional Information</a></li>
-                          <li><a data-toggle="tab" href="#shop_item_reviews" class="text-uppercase">Reviews</a></li>
-                          <li><a data-toggle="tab" href="#shop_item_others" class="text-uppercase">Other</a></li>
-                        </ul>
-
-                        <div class="tab-content">
-                            <!-- tab content item description start -->
-                            <div id="shop_item_description" class="tab-pane fade in active">
-                                <h4>Sample Lorem Ipsum Text</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. Nunc adipiscing. Sed quam odio, tempus ac, aliquam molestie, varius ac, tellus. Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem. Curabitur sit amet erat quis risus feugiat viverra. Pellentesque augue justo, sagittis et, lacinia at, venenatis non, arcu. Nunc nec libero. In cursus dictum risus. Etiam tristique nisl.                                    
-                                </p>
-
-                                <ul class="icon-list">
-                                        <li><i class="fa fa-check color-green"></i>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed at ante. Mauris eleifend</li>
-                                        <li><i class="fa fa-check color-green"></i>Quam a vulputate dictum, massa quam dapibus leo</li>
-                                        <li><i class="fa fa-check color-green"></i>Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem</li> 
-                                    </ul>
-
-                                <h5>Sample Lorem Ipsum Text</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. Nunc adipiscing. Sed quam odio, tempus ac, aliquam molestie, varius ac, tellus. Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem. Curabitur sit amet erat quis risus feugiat viverra. Pellentesque augue justo, sagittis et, lacinia at, venenatis non, arcu. Nunc nec libero. In cursus dictum risus. Etiam tristique nisl.
-                                </p>
-                            </div>
-                            <!-- tab content item description end -->
-
-                            <!-- tab content additional information start -->
-                            <div id="shop_item_additional_information" class="tab-pane fade">
-                                <div class="row">
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Collection:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Collection Title</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Fabrication:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Awesome Fabrication</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Style:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Jeans Jacket</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Neckline:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Round</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Collar:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Shirt</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Sleeves:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Short</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Cuffs:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Button</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Pockets:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">	Button flap chest front seam</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Hemline:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Straight</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Body Length:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Approx. 22-1/2"L</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Size Choices:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">Small, Medium, Large, and Extra Large</strong></div>
-                                    <!-- Spec End -->
-                                    <!-- Spec Start -->
-                                    <div class="col-md-2 col-sm-2 col-xs-4 bb-solid-1 pb10 pt10"><span class="pull-right">Content:</span></div>
-                                    <div class="col-md-10 col-sm-10 col-xs-8 bb-solid-1 pb10 pt10"><strong class="pull-left">55% cotton, 45% polyester</strong></div>
-                                    <!-- Spec End -->
-                                </div>
 
 
-                            </div>
-                            <!-- tab content additional information end -->
 
-                            <!-- tab content reviews start -->
-                            <div id="shop_item_reviews" class="tab-pane fade">
-                                <div class="row bb-solid-1 mb25">
-                                    <div class="col-md-8 col-sm-6 col-xs-6">
-                                        <h4 class="pb10">Customers Reviews<small>750 Reviews</small></h4>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6 text-right pt25">
-                                        <a href="#" class="mr10">
-                                            <i class="fa fa-star fa-2x color-yellow"></i>
-                                            <i class="fa fa-star fa-2x color-yellow"></i>
-                                            <i class="fa fa-star fa-2x color-yellow"></i>
-                                            <i class="fa fa-star fa-2x color-yellow"></i>
-                                            <i class="fa fa-star-half-o fa-2x color-yellow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- Rating Start -->
-                                <div id="progressBar1" class="row">
-                                    <div class="col-md-2 col-sm-4 col-xs-6">
-                                        <h5>5 Star <span class="color-black alpha5">(570)</span></h5>
-                                        <div class="progress progress-xs">
-                                            <div class="progress-bar bg-yellow" role="progressbar" data-transitiongoal="90"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-xs-6">
-                                        <h5>4 Star <span class="color-black alpha5">(70)</span></h5>
-                                        <div class="progress progress-xs">
-                                            <div class="progress-bar bg-yellow" role="progressbar" data-transitiongoal="80"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-xs-6">
-                                        <h5>3 Star <span class="color-black alpha5">(50)</span></h5>
-                                        <div class="progress progress-xs">
-                                            <div class="progress-bar bg-yellow" role="progressbar" data-transitiongoal="50"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-xs-6">
-                                        <h5>2 Star <span class="color-black alpha5">(30)</span></h5>
-                                        <div class="progress progress-xs">
-                                            <div class="progress-bar bg-yellow" role="progressbar" data-transitiongoal="30"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-xs-6">
-                                        <h5>1 Star <span class="color-black alpha5">(5)</span></h5>
-                                        <div class="progress progress-xs">
-                                            <div class="progress-bar bg-yellow" role="progressbar" data-transitiongoal="10"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-2 mt5">
-                                        <a class="button button-md button-blue hover-icon-wobble-horizontal ml-20 pull-right">Add Your Review</a>
-                                    </div>
-
-                                </div>
-                                <!-- Rating End -->
-
-                                <div class="row mt25">
-
-                                    <!-- Review Start -->
-                                    <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="../assets/img/other/photo-2.jpg" class="img-thumbnail pull-left mr20" alt="image">
-                                        <a href="#" class="mr10 mb10">
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star-half-o color-yellow"></i>
-                                        </a>
-                                        <br>
-                                        <div class="strong mt10">John Boo</div> Jan. 20 2016, 10:00 PM
-                                        <div class="">&nbsp;</div>
-                                        <p>
-                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. 
-                                        </p>      
-                                    </div>
-                                    <!-- Review End -->
-
-                                    <!-- Review Start -->
-                                    <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="../assets/img/other/photo-1.jpg" class="img-thumbnail pull-left mr20" alt="image">
-                                        <a href="#" class="mr10 mb10">
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star-half-o color-yellow"></i>
-                                        </a>
-                                        <br>
-                                        <div class="strong mt10">John Boo</div> Jan. 20 2016, 10:00 PM
-                                        <div class="">&nbsp;</div>
-                                        <p>
-                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. 
-                                        </p>      
-                                    </div>
-                                    <!-- Review End -->
-
-                                    <!-- Review Start -->
-                                    <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="../assets/img/other/photo-4.jpg" class="img-thumbnail pull-left mr20" alt="image">
-                                        <a href="#" class="mr10 mb10">
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star-half-o color-yellow"></i>
-                                        </a>
-                                        <br>
-                                        <div class="strong mt10">John Boo</div> Jan. 20 2016, 10:00 PM
-                                        <div class="">&nbsp;</div>
-                                        <p>
-                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. 
-                                        </p>      
-                                    </div>
-                                    <!-- Review End -->
-
-                                    <!-- Review Start -->
-                                    <div class="col-md-12 col-sm-12 col-xs-12 bb-dotted-1 pt25">
-                                        <img src="../assets/img/other/photo-2.jpg" class="img-thumbnail pull-left mr20" alt="image">
-                                        <a href="#" class="mr10 mb10">
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star color-yellow"></i>
-                                            <i class="fa fa-star-half-o color-yellow"></i>
-                                        </a>
-                                        <br>
-                                        <div class="strong mt10">John Boo</div> Jan. 20 2016, 10:00 PM
-                                        <div class="">&nbsp;</div>
-                                        <p>
-                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. 
-                                        </p>      
-                                    </div>
-                                    <!-- Review End -->
-
-                                </div>                                
-
-                            </div>
-                            <!-- tab content reviews end -->
-
-                            <!-- tab content other start -->
-                            <div id="shop_item_others" class="tab-pane fade">
-                                <h5>Other Tab Content</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. 
-                                </p>
-                            </div>
-                            <!-- tab content other end -->
-
-                        </div><!-- tab content end-->
-                    </div><!-- col-md end -->
-                </div><!-- row end -->
 
                 <!-- Related Products
                 ===================================== -->
                 <div class="row">
                     <div class="col-md-10">
-                        <h4 class="strong">Похожие Буеты</h4>
+                        <h4 class="strong">Рекомендуем</h4>
                     </div>
                     <div class="col-md-2 text-center">                    
                         <i class="fa fa-angle-left shop-control-prev"></i>
@@ -542,31 +307,33 @@
                         <div id="owlShop">
 
                             <!-- shop item start -->
-                            <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label">-50%</div>
-                                    <img src="<?php echo $recommendations[0]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title"><?php echo $recommendations[0]['name_title']; ?> - <?php echo $recommendations[0]['amount']; ?></h4>
-                                    <span class="shop-item-price"><?php echo $recommendations[0]['price']; ?></span>
+                            <a href="product.php?id=<?php echo $recommendations[0]['id'];?>">
+                                <div class="shop-item-container-out">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[0]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[0]['name_title']; ?> - <?php echo $recommendations[0]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[0]['price']; ?></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-xs-3">
+                                            <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
+                                                <i class="fa fa-heart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-6 col-xs-6">
+                                            <a href="#" class="add-to-cart">
+                                                Add to cart
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-3">
+                                            <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            </a>
                             <!-- shop item end -->
 
                             <!-- shop item start -->

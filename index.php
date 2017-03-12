@@ -37,6 +37,7 @@
         <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+        <link rel="stylesheet" href="../assets/css/lp-tulips.css">
         
         <!-- Load Color CSS - Please uncomment to apply the color.
         =====================================      
@@ -84,10 +85,17 @@
 
         <!--sendpulse.com-->
         <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/89de4666462567520bae2ccb43c0123d_0.js" async></script>
-        
+        <script src="js/gtm.js"></script>
+
     </head>
     <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
-        
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLN2WWL"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
         <!-- Page Loader
         ===================================== -->
 		<div id="pageloader" style="display: none">
@@ -102,7 +110,7 @@
 
         <!-- Navigation Area
         ===================================== -->
-        <?php include 'section/header_transparent.php'; ?>
+        <?php include 'section/header_white.php'; ?>
         <!--
         <nav class="navbar navbar-pasific navbar-mp megamenu navbar-fixed-top" style="border-bottom: none">
             <div class="container-fluid">
@@ -128,7 +136,7 @@
         </nav>-->
 
 
-
+        <!--
         <div class="container-fluid bg">
             <div class="container">
                 <div class="row">
@@ -146,6 +154,32 @@
             </div>
         </div>
 
+        <!-- Превый экран  -->
+
+        <div id='first_section' class="container-fluid first_section">
+            <div class="container">
+                <div class="row">
+                    <div class="offer col-lg-5 col-md-5 col-sm-5">
+                        <div style="font-size: 15px; font-weight: 400;"><img style="padding-right: 3px;" src="images/lp-tolips/hachtag.png" alt="">ДариВесну</div>
+                        <div style="margin-bottom: 5px;">ДОСТАВКА БУКЕТОВ</div>
+                        <div class="offer_3">по Минску</div>
+
+                    </div>
+                    <div class="bouket_rose col-lg-7 col-md-7 col-sm-7">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="intro-direction">
+                <a href="#welcome">
+                    <div class="mouse-icon"><div class="wheel"></div></div>
+                </a>
+            </div>
+
+        </div>
 
 
         <!-- Intro Area
@@ -233,181 +267,7 @@
 
 
 
-        <!-- Portfolio Area
-        ===================================== -->
-        <div id="portfolioMasonry" class="pt75">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mb50">
-                        
-                        <ul class="text-center filters mt25 mb50">
-                          <li><a class="active" data-filter="*">ЛУЧШИЕ БУКЕТЫ</a></li>
-                          <li><a class="" data-filter=".html">РОЗЫ</a></li>
-                          <li><a class="" data-filter=".wordpress">ТЮЛЬПАНЫ</a></li>
-                            <li><a class="" data-filter=".woocommerce">СБОРНЫЕ БУКЕТЫ</a></li>
-                          <li><a class="catalog_button" href="../pages/catalog.php">КАТАЛОГ<i class="ml10 fa fa-long-arrow-right" style="color: #FF4530;"></i></a></li>
-                        </ul>
-                        
-                        <div class="portfolio-masonry-one">
-                            
-                            <!-- portfolio item start -->
-                           <!-- <a href="pages/product.php?id=2"> -->
-                                <div id="rose_pink_35" class="portfolio-masonry-one-item width2 woocommerce">
-                                    <div class="portfolio-mask text-center">
-                                        <h6>Modern</h6>
-                                        <p><a>35 роз</a></p>
-                                        <div class="portfolio-mask-attr text-center">
-                                            <a title="project title">
-                                                <i class="fa fa-search-plus"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <img src="assets/img/portfolio/thumbs/img-370x165-1.jpg" alt="portfolio woocommerce" class="img-responsive">
-                                </div>
-                           <!-- </a> -->
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->
-                            <div class="portfolio-masonry-one-item height2 woocommerce html">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Букет</h6>
-                                    <p><a href="#">41 тюльпан</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-180x340-1.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-180x340-1.jpg" alt="portfolio logo html" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item wordpress shopify">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-180x165-1.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-180x165-1.jpg" alt="portfolio wordpress" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item wordpress joomla">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>LS-BOX</h6>
-                                    <p><a>11 роз</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a>
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-180x165-2.jpg" alt="portfolio joomla" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item width2 height2 magento html">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>XXL-BOX</h6>
-                                    <p><a href="#">30 роз</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-370x340-1.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-370x340-1.jpg" alt="" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item width2 woocommerce html joomla">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-370x165-2.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-370x165-2.jpg" alt="portfolio logo html joomla" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div id='rose_rad_51' class="portfolio-masonry-one-item width2 width2 magento">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-370x165-3.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-370x165-3.jpg" alt="portfolio ecommerse" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item height2 joomla wordpress">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-180x340-2.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-180x340-2.jpg" alt="portfolio joomla wordpress" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item wordpress joomla shopify">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                        <a href="assets/img/portfolio/preview/img-180x165-3.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-180x165-3.jpg" alt="portfolio joomla" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->
-                            
-                            <!-- portfolio item start -->                            
-                            <div class="portfolio-masonry-one-item ecommerse joomla wordpress shopify">
-                                <div class="portfolio-mask text-center">                                    
-                                    <h6>Website Project</h6>
-                                    <p><a href="#">themeforest.net</a></p>
-                                    <div class="portfolio-mask-attr text-center">
-                                         <a href="assets/img/portfolio/preview/img-180x165-4.jpg" class="magnific-popup" title="project title">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img src="assets/img/portfolio/thumbs/img-180x165-4.jpg" alt="portfolio wordpress" class="img-responsive">
-                            </div>
-                            <!-- portfolio item end -->                          
-                            
-                        </div>
-                        
-                    </div><!-- col end -->
-                </div><!-- row end -->
-            </div><!-- container end -->
-        </div><!-- section potfolio end -->
+        <?php include 'section/catalog-preview.php'; ?>
         
 
 
