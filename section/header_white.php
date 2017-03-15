@@ -26,12 +26,6 @@
                             </a>
                         </li>
 
-                        <li>
-                            <a id='topmeny' href="#" style="padding-left: 20px; color: #0b0b0b !important;" class="dropdown-toggle color-light">
-                                Оплата и доставка
-                            </a>
-                        </li>
-
                         <li class="top_vk_button" style="height: 40px; margin-top: 4px;">
                             <a id='topmeny' href="http://vk.com" target="_blank" style="padding-left: 20px; color: #0b0b0b !important; margin-top: -5px;" class="dropdown-toggle color-light">
                                 <div id='vk_nav' class="vk_navbar_red" alt="vk">  Напишите нам </div>

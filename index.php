@@ -8,12 +8,22 @@
         <meta name="author" content="Harry Boo">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        
+
+
         <!-- Favicons -->
         <link rel="shortcut icon" href="assets/img/favicon.png">
         <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WLN2WWL');</script>
+        <!-- End Google Tag Manager -->
         
         <!-- Load Core CSS 
         =====================================-->
@@ -37,7 +47,7 @@
         <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
-        <link rel="stylesheet" href="../assets/css/lp-tulips.css">
+        <!--<link rel="stylesheet" href="../assets/css/lp-tulips.css">-->
         
         <!-- Load Color CSS - Please uncomment to apply the color.
         =====================================      
@@ -85,7 +95,7 @@
 
         <!--sendpulse.com-->
         <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/89de4666462567520bae2ccb43c0123d_0.js" async></script>
-        <script src="js/gtm.js"></script>
+       <!-- <script src="js/gtm.js"></script>-->
 
     </head>
     <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -156,30 +166,33 @@
 
         <!-- Превый экран  -->
 
-        <div id='first_section' class="container-fluid first_section">
-            <div class="container">
-                <div class="row">
-                    <div class="offer col-lg-5 col-md-5 col-sm-5">
-                        <div style="font-size: 15px; font-weight: 400;"><img style="padding-right: 3px;" src="images/lp-tolips/hachtag.png" alt="">ДариВесну</div>
-                        <div style="margin-bottom: 5px;">ДОСТАВКА БУКЕТОВ</div>
-                        <div class="offer_3">по Минску</div>
+    <div class="container-fluid" style="height: 500px; background: url(images/first_BG2.jpg) white bottom no-repeat;">
 
+    </div>
+
+      <!--<  <div>
+            <div id='first_section' class="container-fluid" style="background: url(images/pattern_green.svg); height: 500px; background-attachment: fixed;">
+                <div class="container">
+                    <div class="col-md-4" style="height: 100%;"></div>
+                    <div class="col-md-4" style="height: 500px; padding-top: 200px; text-align: center; background: linear-gradient(-45deg, #64a230, #7fb543);">
+                        <div style="color: white; font-size: 25px; font-weight: 300; letter-spacing: 18px; padding-left: 18px;">ДОСТАВКА</div>
+                        <div style="color: white; font-size: 50px; font-weight: 800; letter-spacing: 5px; padding-left: 5px; margin-top: -10px;">БУКЕТОВ</div>
+                        <div style="color: #000000; font-size: 20px; font-weight: 300; letter-spacing: 15px; padding-left: 15px; margin-top: 0px; margin-bottom: 20px;">
+                            <img style="height: 20px; margin-right: 10px;" src="images/placeholder.svg" alt="">по Москве</div>
+                        <a class="chuse" href="#portfolioMasonry"><button class="button-3d button-pasific hover-ripple-out" style="width: 250px; height: 42px">Выбрать букет <i class="fa fa-arrow-down"></i></button></a>
                     </div>
-                    <div class="bouket_rose col-lg-7 col-md-7 col-sm-7">
-
-                    </div>
-
+                    <div class="col-md-4" style="height: 100%;"></div>
                 </div>
-
             </div>
 
-            <div class="intro-direction">
-                <a href="#welcome">
-                    <div class="mouse-icon"><div class="wheel"></div></div>
-                </a>
+            <div class="container-fluid" style="background: white; height: 50px;">
+                <div class="container">
+                    <div class="col-md-4" style="height: 350px; background: url(images/boucet_2.png) no-repeat; background-position: left; margin-top: -290px"></div>
+                    <div class="col-md-4" style="height: 100%;"></div>
+                    <div class="col-md-4" style="height: 350px; background: url(images/boucet.png) no-repeat; background-position: right; margin-top: -290px"></div>
+                </div>
             </div>
-
-        </div>
+        </div> -->
 
 
         <!-- Intro Area
@@ -822,7 +835,7 @@
 
         <script src="js/telegram.js"></script>
         <script src="js/typed.js"></script>
-        <script src="js/headerswich.js"></script>
+       <!-- <script src="js/headerswich.js"></script> -->
         <script src="js/link_index.js"></script>
 
         <script src="js/typed.js"></script>

@@ -2123,7 +2123,7 @@ table th.bg-pasific {
 17. NAVBAR
 -------------------------------------------------------- */
 .navbar-pasific {
-    background-color: transparent;
+    background-color: white;
     padding: 20px 0;
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
@@ -3615,7 +3615,8 @@ ul.breadcrumb li a:hover {
 }
 .shop-item-container-in {
     background: #fff;
-    padding: 25px 0;
+    padding: 0;
+    padding-bottom: 25px;
     margin-top: 20px;
     border: 1px solid #eaeff3;
     -webkit-border-radius: 3px;
@@ -4802,6 +4803,43 @@ ul.pagination.pagination-pasific li.active a {
 .top_vk_button:hover{
     border: 1px solid rgb(255, 69, 48) !important;
 }
+
+.deliveri_place{
+    text-align: center;
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 215px;
+    height: 55px;
+    font-weight: 700;
+    background-color: #35c21e
+}
+
+.first_section{
+    height: 500px;
+    background: url(../../../images/lp-tolips/tolips-pattern.svg);
+    /* background-attachment: fixed; */
+}
+
+
+.bouket_rose{
+    margin-top: 20%;
+    height: 500px;
+    background: url(../../../images/lp-tolips/bouket-rose.png) 50px 0px no-repeat;
+    background-size: 50%;
+}
+
+.offer{
+    font-family: "Open Sans";
+    letter-spacing: 1px;
+    font-size: 26px;
+    color: #0b0b0b;
+    margin-top: 25%;
+    text-align: right;
+
+}
+
 
 
 @media(max-width:768px) {

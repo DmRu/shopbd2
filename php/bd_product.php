@@ -43,6 +43,7 @@ $name = $flower['name_title'];
 $class = $flower['class'];
 $price = $flower['price'];
 $price_before_sale = round($flower['price'] * 1.15, -1);
+$amount = $flower['amount'];
 $img_250x358_url = $flower['img_250x358_url'];
 $img_490x490_url = $flower['img_490x490_url'];
 $img_50x72_url = $flower['img_50x72_url'];

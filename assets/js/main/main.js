@@ -56,7 +56,7 @@ $(document).ready(function() {
 	----------------------------------------------------------- */
     $(function(){
         "use strict";
-        $(".navbar-op ul li a, .navbar-op a.navbar-brand, .intro-direction a, a.go-to-top").on('click', function(event) {    
+        $(".navbar-op ul li a, .navbar-op a.navbar-brand, .intro-direction a, a.go-to-top, a.chuse").on('click', function(event) {
             event.preventDefault();
             var hash = this.hash;
 
@@ -282,12 +282,12 @@ $(document).ready(function() {
             slideSpeed : 1000,
             autoPlay : true,
             pagination: false,
-            items : 4, 
+            items : 4
         });
 
         $(".shop-control-next").on('click', function(){
             owlShop.trigger('owl.next');
-        })
+        });
         $(".shop-control-prev").on('click', function(){
             owlShop.trigger('owl.prev');
         });

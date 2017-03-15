@@ -15,7 +15,15 @@
         <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/apple-touch-icon-114x114.png">
-        
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WLN2WWL');</script>
+        <!-- End Google Tag Manager -->
+
         <!-- Load Core CSS 
         =====================================-->
         <link rel="stylesheet" href="../assets/css/core/bootstrap.min.css">
@@ -131,7 +139,7 @@
         
         <!-- Subheader Area
         ===================================== -->
-        <header class="bg-grad-stellar" style="margin-top: 80px;" >
+        <header class="bg-grad-stellar" style="margin-top: 90px;" >
 
             <div class="container">
                 <div class="row mt20 mb30">
@@ -189,7 +197,7 @@
                     ===================================== -->
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="shop-item-detail-description">
-                            <h3><?php echo $name;?><span style="font-weight: 200;"> <?php echo $class;?></span></h3>
+                            <h3><?php echo $name;?><span style="font-weight: 200;">  - <?php echo $amount;?> шт.</span></h3>
 
                             <div class="shop-item-sku mt20 pt10 bt-dotted-1">
                                 Номер букета: <span class="color-black strong">ABEF345</span>
@@ -307,240 +315,114 @@
                         <div id="owlShop">
 
                             <!-- shop item start -->
-                            <a href="product.php?id=<?php echo $recommendations[0]['id'];?>">
                                 <div class="shop-item-container-out">
+                                    <a href="product.php?id=<?php echo $recommendations[0]['id'];?>">
+                                        <div class="shop-item-container-in">
+                                            <div class="shop-label">-50%</div>
+                                            <img src="<?php echo $recommendations[0]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                            <h4 class="shop-item-title"><?php echo $recommendations[0]['name_title']; ?> - <?php echo $recommendations[0]['amount']; ?></h4>
+                                            <span class="shop-item-price"><?php echo $recommendations[0]['price']; ?> руб.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            <!-- shop item end -->
+
+                            <!-- shop item start -->
+                            <div class="shop-item-container-out">
+                                <a href="product.php?id=<?php echo $recommendations[1]['id'];?>">
                                     <div class="shop-item-container-in">
                                         <div class="shop-label">-50%</div>
-                                        <img src="<?php echo $recommendations[0]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
-                                        <h4 class="shop-item-title"><?php echo $recommendations[0]['name_title']; ?> - <?php echo $recommendations[0]['amount']; ?></h4>
-                                        <span class="shop-item-price"><?php echo $recommendations[0]['price']; ?></span>
+                                        <img src="<?php echo $recommendations[1]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[1]['name_title']; ?> - <?php echo $recommendations[1]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[1]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-3 col-xs-3">
-                                            <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                                <i class="fa fa-heart"></i>
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-6 col-xs-6">
-                                            <a href="#" class="add-to-cart">
-                                                Add to cart
-                                            </a>
-                                        </div>
-                                        <div class="col-sm-3 col-xs-3">
-                                            <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                                <i class="fa fa-envelope"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <!-- shop item end -->
-
-                            <!-- shop item start -->
-                            <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <img src="../images/recomend/box-lx-tulpan.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Casual Jacket</h4>
-                                    <span class="shop-item-price">$79.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
 
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label">Sale</div>
-                                    <img src="../images/recomend/b-35-yellow.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Summer Jacket</h4>
-                                    <span class="shop-item-price">$85.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                                <a href="product.php?id=<?php echo $recommendations[2]['id'];?>">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[2]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[2]['name_title']; ?> - <?php echo $recommendations[2]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[2]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
 
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <img src="../images/recomend/box-xs-pink.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Man Jacket</h4>
-                                    <span class="shop-item-price">$57.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                                <a href="product.php?id=<?php echo $recommendations[3]['id'];?>">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[3]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[3]['name_title']; ?> - <?php echo $recommendations[3]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[3]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
 
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label">-50%</div>
-                                    <img src="../images/recomend/b-25-pink.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                                <a href="product.php?id=<?php echo $recommendations[4]['id'];?>">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[4]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[4]['name_title']; ?> - <?php echo $recommendations[4]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[4]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
 
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label">-50%</div>
-                                    <img src="../images/recomend/b-101-white.JPG" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                                <a href="product.php?id=<?php echo $recommendations[5]['id'];?>">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[5]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[0]['name_title']; ?> - <?php echo $recommendations[5]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[5]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
 
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label">-50%</div>
-                                    <img src="../images/recomend/b-51-pink.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                                <a href="product.php?id=<?php echo $recommendations[6]['id'];?>">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[6]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[6]['name_title']; ?> - <?php echo $recommendations[6]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[6]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
 
                             <!-- shop item start -->
                             <div class="shop-item-container-out">
-                                <div class="shop-item-container-in">
-                                    <div class="shop-label">-50%</div>
-                                    <img src="../images/recomend/b-35-red.jpg" alt="shop item" class="img-responsive center-block">
-                                    <h4 class="shop-item-title">Cool Man Jacket</h4>
-                                    <span class="shop-item-price">$90.00</span>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="add-to-wishlist" data-toggle="tooltip" title="Add to wishlist">
-                                            <i class="fa fa-heart"></i>
-                                        </a>
+                                <a href="product.php?id=<?php echo $recommendations[7]['id'];?>">
+                                    <div class="shop-item-container-in">
+                                        <div class="shop-label">-50%</div>
+                                        <img src="<?php echo $recommendations[7]['img_490x490_url']; ?>" alt="shop item" class="img-responsive center-block">
+                                        <h4 class="shop-item-title"><?php echo $recommendations[7]['name_title']; ?> - <?php echo $recommendations[7]['amount']; ?></h4>
+                                        <span class="shop-item-price"><?php echo $recommendations[7]['price']; ?> руб.</span>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <a href="#" class="add-to-cart">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-3">
-                                        <a href="#" class="send-to-friend" data-toggle="tooltip" title="Send to friend">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- shop item end -->
+
+
 
                         </div><!-- #owlShop end -->
                     </div><!-- col-md end -->
                 </div><!-- row end -->
-                
             </div>
         </div><!-- shop details end -->
                 

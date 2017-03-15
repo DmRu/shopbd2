@@ -30,6 +30,7 @@
  width: 215px;
  height: 55px;
  font-weight: 700;
+ float: left;
  background-color: #35c21e
 }
 
@@ -274,9 +275,7 @@ border-radius: 5px;
   padding-left: 50px;
   text-align: left;
  }
- .offer_3{
-  float: left;
- }
+
  .bouket_tolips{
   background-position: center center;
  }
